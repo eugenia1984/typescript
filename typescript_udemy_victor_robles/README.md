@@ -26,6 +26,6 @@
 
 ---
 
-En el archivo [**TEORIA.md**](https://github.com/eugenia1984/typescript/blob/main/typescript_udemy_victor_robles/TEORIA.md) está toda la teopría.
+- :book: En el archivo [**TEORIA.md**](https://github.com/eugenia1984/typescript/blob/main/typescript_udemy_victor_robles/TEORIA.md) está toda la teoría.
 
 ---
