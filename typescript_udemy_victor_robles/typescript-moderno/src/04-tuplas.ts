@@ -1,0 +1,1 @@
+let pelicula: [string, boolean, number] = ["Barman Begins", true, 1990];
