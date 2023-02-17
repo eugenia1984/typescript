@@ -37,3 +37,20 @@ grupos = function (datos) {
   return "Mis grupos favoritos son: " + datos.toString();
 }
 console.log(grupos(["Jesse & Joy", "Sam Smith", "Clean Bandit"]));
+
+// Tipo Literal
+/* En vez de atuendo: number) ya defino que va entre 1 a 4 */
+function tekken(personaje: string, atuendo: "especial" | 1 | 2 | 3 | 4): string {
+  return `El personaje ${ personaje } lleva el atuendo${ atuendo }`
+}
+
+console.log(tekken("Tigre", 2));
+console.log(tekken("Gato", "especial"));
+
+// Tipo personalizado o alias
+// Es similar a los union type solo que aca ya le digo que valor posible tiene
+type traje = "especial" | 1 | 2 | 3 | 4 | "comprado";
+function tekken2(personaje: string, atuendo: traje): string {
+  return `El personaje ${ personaje } lleva el atuendo${ atuendo }`
+}
+console.log(tekken2("Perro", "comprado"));
