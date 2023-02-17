@@ -33,3 +33,14 @@ grupos = function (datos) {
     return "Mis grupos favoritos son: " + datos.toString();
 };
 console.log(grupos(["Jesse & Joy", "Sam Smith", "Clean Bandit"]));
+// Tipo Literal
+/* En vez de atuendo: number) ya defino que va entre 1 a 4 */
+function tekken(personaje, atuendo) {
+    return `El personaje ${personaje} lleva el atuendo${atuendo}`;
+}
+console.log(tekken("Tigre", 2));
+console.log(tekken("Gato", "especial"));
+function tekken2(personaje, atuendo) {
+    return `El personaje ${personaje} lleva el atuendo${atuendo}`;
+}
+console.log(tekken2("Perro", "comprado"));
