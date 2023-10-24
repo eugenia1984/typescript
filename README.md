@@ -18,3 +18,6 @@ Los cursos que estoy realizando para aprender **TS**:
 
 ---
 
+Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
