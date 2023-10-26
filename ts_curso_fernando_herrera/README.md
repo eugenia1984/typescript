@@ -70,7 +70,7 @@ Para no tener que estar compilando todo el tiempo, cuando detecta un cambio, vue
 
 ## <img width="40" height="40" src="https://img.icons8.com/color/48/clipboard.png" alt="clipboard"/> TEMAS
 
-### [1 - Tipos básicos](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/tipos)
+### 1 - [Tipos básicos](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/tipos)
 
 ```
 1. ¿Qué son los tipos de datos?
@@ -111,5 +111,33 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 5. Parámetros REST
 6. Tipo de datos "Function"
 ```
+
+---
+
+## 3- [Objetos y tipos personalizados](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/objetos-y-tipos)
+
+```
+1. Objetos básicos
+2. Crear objetos con tipos específicos
+3. Crear métodos dentro de objetos
+4. Tipos personalizados
+5. Crear variables que soporten varios tipos a la vez.
+6. Comprobar el tipo de un objeto.
+```
+---
+
+## 4 - [Depuracion de errores y el archivo tsconfig.json](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/depuracion)
+
+```
+1. Aprenderemos el ¿por qué siempre compila a JavaScript?
+2. Para que nos puede servir el archivo de configuración de TypeScript
+3. Realizaremos depuración de errores directamente a nuestros archivos de TypeScript
+4. Removeremos todos los comentarios en nuestro archivo de producción.
+5. Restringiremos al compilador que sólo vea ciertos archivos o carpetas
+6. Crearemos un archivo final de salida
+7. Aprenderemos a cambiar la version de JavaScript de salida
+```
+
+[Documentacion de tsconfig](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ---
