@@ -41,4 +41,12 @@ Con **exclude** indico lo que voy a excluir y con **include** indico lo que voy 
 
 ## Output File - Archivo de salida
 
+
+```
+ "outDir": "./main.js",  /* Redirect output structure to the directory. */
+```
+
+Hay que teer en cuenta que si teniamos el `include` va a compilar solo lo que se indica ahi.
+
+Y todo mi codigo de Ts va a ir a `main.js`
 ---

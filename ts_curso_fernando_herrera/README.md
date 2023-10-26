@@ -141,3 +141,19 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 [Documentacion de tsconfig](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ---
+
+## 5 - Características de ES6 o JavaScript2015
+
+```
+1. Diferencia entre declarar variables con VAR y con LET
+2. Uso de constantes
+3. Plantillas literales
+4. Funciones de flecha
+5. Destructuración de objetos
+6. Destructuración de Arreglos
+7. Nuevo ciclo, el FOR OF
+8. Conocer sobre la programación orientada a objetos
+9. Clases
+```
+
+---
