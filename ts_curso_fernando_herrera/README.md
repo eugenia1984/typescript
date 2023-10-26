@@ -100,3 +100,16 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 [Documentación oficial de tipos](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 ---
+
+## 2 - Funciones y objetos
+
+```
+1. Declaraciones básicas de funciones
+2. Parámetros obligatorios
+3. Parámetros opcionales
+4. Parámetros por defecto
+5. Parámetros REST
+6. Tipo de datos "Function"
+```
+
+---
