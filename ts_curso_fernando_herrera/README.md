@@ -40,3 +40,15 @@
 * [Tokio Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
 * [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+---
+
+## ¿ Cómo podemos copilar desde la terminal?
+
+`tsc app.ts`
+
+**tsc** -> para compilar TypeScript de manera global
+
+**app.ts** -> el nombre del archivo a compilar
+
+---
