@@ -101,7 +101,7 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 
 ---
 
-## 2 - Funciones y objetos
+## 2 - [Funciones y objetos](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/funciones)
 
 ```
 1. Declaraciones básicas de funciones
