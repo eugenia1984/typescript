@@ -3,8 +3,9 @@
 - TypeScript es TRANSPILADO al standard de JavaScript para que sea corrido en el NAVEGADOR WEB
 
 ---
+---
 
-# Instalaciones recomendadas - Curso de TypeScript
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Instalaciones recomendadas - Curso de TypeScript
 
 1. [Node JS](https://nodejs.org/es/)
 
@@ -12,13 +13,13 @@
 
 3. [Google Chrome](https://www.google.com.mx/intl/es-419/chrome/?brand=CHBD&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7AAMm13Ae3KDIib46Laxfe6tzD_w4yvDdpq5XsPw1eNlOkZ_0-3x3IaAvLEEALw_wcB&gclsrc=aw.ds)
 
-## Extensiones de VSCode
+## <img width="48" height="48" src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="visual studio code"/> Extensiones de VSCode
 
 [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
 
 [TypeScript importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
 
-## Extensiones de Chrome
+## <img width="48" height="48" src="https://img.icons8.com/color/48/chrome--v1.png" alt="chrome"/> Extensiones de Chrome
 
 [Json Viewer Awesome](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
 
@@ -35,7 +36,8 @@
     "#0098FA"
 ],
 ```
-### Tema que estoy usando en VSCode
+
+### <img width="48" height="48" src="https://img.icons8.com/external-bearicons-outline-color-bearicons/48/external-colors-graphic-design-bearicons-outline-color-bearicons.png" alt="colors"/> Tema que estoy usando en VSCode
 
 * [Tokio Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
@@ -43,7 +45,7 @@
 
 ---
 
-## ¿ Cómo podemos compilar desde la terminal?
+## <img width="48" height="48" src="https://img.icons8.com/officel/48/console.png" alt="console"/> ¿ Cómo podemos compilar desde la terminal?
 
 `tsc app.ts`
 
@@ -53,22 +55,22 @@
 
 ---
 
-## Para crear el archivo de configuración de TypeScript
+## <img width="48" height="48" src="https://img.icons8.com/plasticine/48/file.png" alt="file"/> Para crear el archivo de configuración de TypeScript
 
 `tsc` si ya tenemos el archivo `tsconfig.json`
 
 ---
 
-## Modo watch
+## <img width="48" height="48" src="https://img.icons8.com/3d-fluency/48/eyes-1.png" alt="eyes"/> Modo watch
 
 Para no tener que estar compilando todo el tiempo, cuando detecta un cambio, vuelve a compilar, se hace con el comando: `tsc --w` ó `tsc --watch`
 
 ---
 ---
 
-## TEMAS
+## <img width="40" height="40" src="https://img.icons8.com/color/48/clipboard.png" alt="clipboard"/> TEMAS
 
-### 1 - Tipos básicos
+### [1 - Tipos básicos](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/tipos)
 
 ```
 1. ¿Qué son los tipos de datos?
