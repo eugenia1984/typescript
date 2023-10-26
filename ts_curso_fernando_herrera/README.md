@@ -43,12 +43,58 @@
 
 ---
 
-## ¿ Cómo podemos copilar desde la terminal?
+## ¿ Cómo podemos compilar desde la terminal?
 
 `tsc app.ts`
 
 **tsc** -> para compilar TypeScript de manera global
 
 **app.ts** -> el nombre del archivo a compilar
+
+---
+
+## Para crear el archivo de configuración de TypeScript
+
+`tsc` si ya tenemos el archivo `tsconfig.json`
+
+---
+
+## Modo watch
+
+Para no tener que estar compilando todo el tiempo, cuando detecta un cambio, vuelve a compilar, se hace con el comando: `tsc --w` ó `tsc --watch`
+
+---
+---
+
+## TEMAS
+
+### 1 - Tipos básicos
+
+```
+1. ¿Qué son los tipos de datos?
+2. Una introducción a los diferentes tipos de datos que existen en TypeScript
+3. Booleanos
+4. Números
+5. Strings
+6. Tipo Any
+7. Arreglos
+8. Tuplas
+9. Enumeraciones
+10. Retorno void
+11. Null
+12. Undefined
+```
+
+**tipo de datos** -> TypeScrpt es un SuperSet, tiene los mismos tipos de datos de JavaScript, y algunos más.
+
+En JavaScript tenemos los **tipos de datos**:
+
+- **primitivos**: String, Number, Boolean, Symbol
+
+- **compuestos**: objetos literales, funciones, clases, arreglos
+
+Y TypeScript agrega: Interfaces, Genericos, Tuplas
+
+[Documentación oficial de tipos](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 ---
