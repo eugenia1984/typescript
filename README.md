@@ -6,7 +6,7 @@
 
 Los cursos que estoy realizando para aprender **TypeScript**:
 
-- TypeScript: tu completa guia y manual de mano - curso de Udemy de Fernando Herrera
+- [TypeScript: tu completa guia y manual de mano - curso de Udemy de Fernando Herrera](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera)
 
 - [ Master en TypeScript, JavaScript Moderno, ES2023, APIs HTML5 - Udemy - Victor Robles](https://github.com/eugenia1984/typescript/tree/main/typescript_udemy_victor_robles)
 
