@@ -142,7 +142,7 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 
 ---
 
-## 5 - Características de ES6 o JavaScript2015
+## 5 - [Características de ES6 o JavaScript2015](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/ES6)
 
 ```
 1. Diferencia entre declarar variables con VAR y con LET
@@ -154,6 +154,31 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 7. Nuevo ciclo, el FOR OF
 8. Conocer sobre la programación orientada a objetos
 9. Clases
+```
+
+---
+
+## 6 - [Clases en TypeSCript](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/clases)
+
+```
+1. Crear clases en TypeScript
+2. Constructores
+3. Accesibilidad de las propiedades:
+-Públicas
+-Privadas
+-Protegidas
+4. Métodos de las clases que pueden ser:
+-Públicos
+-Privados
+-Protegidos
+5. Herencia
+6. Llamar funciones del padre, desde los hijos
+7. Getters 
+8. Setters
+9. Métodos y propiedades estáticas
+10. Clases abstractas
+11. Constructores privados.
+
 ```
 
 ---
