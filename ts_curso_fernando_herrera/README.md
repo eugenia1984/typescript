@@ -194,3 +194,18 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 ```
 
 ---
+
+## 8 - NameSpaces
+
+```
+1. Explicación del ¿por qué son necesarios los namespaces?
+2. Crear namespaces
+3. Multiples namespaces en un mismo proyecto
+4. Importar namespaces
+5. Problemática que se puede presentar utilizando un namespace.
+```
+
+NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en los FrameWorks. Venimso trabajando con Funciones anónimas autoinvocadas
+
+-> Ver el directorio `ts-node`
+---
