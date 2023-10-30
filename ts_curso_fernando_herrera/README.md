@@ -182,3 +182,15 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 ```
 
 ---
+
+## 7 - [Interfaces](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/interfaces)
+
+```
+1. ¿Por qué es necesario una interfaz?
+2. ¿Cómo creamos una interfaz básica?
+3. Crear propiedades opcionales
+4. Crear métodos
+5. Asignar interfaces a las clases
+```
+
+---
