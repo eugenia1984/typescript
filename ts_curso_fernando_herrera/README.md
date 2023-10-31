@@ -195,7 +195,7 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 
 ---
 
-## 8 - NameSpaces
+## 8 - [NameSpaces](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/namespaces)
 
 ```
 1. Explicación del ¿por qué son necesarios los namespaces?
@@ -207,11 +207,10 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 
 NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en los FrameWorks. Venimso trabajando con Funciones anónimas autoinvocadas
 
--> Ver el directorio `ts-node`
 
 ---
 
-## 9 - Generics 
+## 9 - [Generics](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/ts-node/src/generics)
 
 ```
 1. Uso de los genéricos
@@ -221,13 +220,13 @@ NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en 
 5. Clases genéricas
 ```
 
--> ver el directorio `ts-node / src / generics`
+-> ver el directorio `typescript / ts-node / src / generics`
 
 - Extension de VSC **Paste JSON as Code**, se va a un archivo de TS, la paleta de comeandos, buscamos Paste JSON as Code, lo pegamos y tenemos la interfaz
 
 ---
 
-## 10 - Decoradores
+## 10 - [Decoradores](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/ts-node/src/decorators)
 
 ```
 1. ¿Qué son los decoradores?
@@ -241,13 +240,13 @@ NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en 
 9. Decoradores de parámetros
 ```
 
--> ver el directorio `ts-node / src / decorators`
+-> ver el directorio `typescript /ts-node / src / decorators`
 
 [Documentacion](https://www.typescriptlang.org/docs/handbook/decorators.html), es una funcion que se utilizar para añadir o expandir funcionalidades a un objeto. Se ven con `@`, Angular lo usa.
 
 ---
 
-## 11 - Usando librerias que no están escritas en TypeScript
+## 11 - [Usando librerias que no están escritas en TypeScript](https://github.com/eugenia1984/typescript/tree/main/ts_curso_fernando_herrera/typescript/express-api)
 
 
 ```
@@ -261,5 +260,7 @@ NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en 
 -> ` npm install express` para instalar express
 
 -> `npm i --save-dev @types/express` para agregar el tipadod e TypeScript
+
+-> ver el directorio `typescript / ts-node / express-api`
 
 ---
