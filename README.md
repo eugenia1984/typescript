@@ -17,7 +17,17 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 - <img width="38" height="38" src="https://img.icons8.com/color/38/javascript--v1.png" alt="javascript"/> JavaScript
 
-- <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/> ypeScript
+- <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/> TypeScript
+
+- <img width="38" height="38" src="https://img.icons8.com/color/38/nodejs.png" alt="nodejs"/> Nodejs
+
+-  <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/> Expressjs
+  
+---
+
+## NOTAS:
+
+Agradezco su interés en este proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
 
