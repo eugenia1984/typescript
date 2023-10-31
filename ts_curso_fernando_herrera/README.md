@@ -256,4 +256,10 @@ NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en 
 3. Agregar definiciones de archivos mediante node
 ```
 
+-> `npm init` para inciializar el proyecto de node
+
+-> ` npm install express` para instalar express
+
+-> `npm i --save-dev @types/express` para agregar el tipadod e TypeScript
+
 ---
