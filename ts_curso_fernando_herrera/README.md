@@ -208,4 +208,52 @@ Y TypeScript agrega: Interfaces, Genericos, Tuplas
 NameSpaces -> cada vez se usa menos en el desarrollo, pero por atrás se usa en los FrameWorks. Venimso trabajando con Funciones anónimas autoinvocadas
 
 -> Ver el directorio `ts-node`
+
+---
+
+## 9 - Generics 
+
+```
+1. Uso de los genéricos
+2. Funciones genéricas
+3. Ejemplos prácticos sobre los genéricos
+4. Arreglos genéricos
+5. Clases genéricas
+```
+
+-> ver el directorio `ts-node / src / generics`
+
+- Extension de VSC **Paste JSON as Code**, se va a un archivo de TS, la paleta de comeandos, buscamos Paste JSON as Code, lo pegamos y tenemos la interfaz
+
+---
+
+## 10 - Decoradores
+
+```
+1. ¿Qué son los decoradores?
+2. ¿Para qué sirven?
+3. Decoradores de clases
+4. Decoradores de fabrica
+5. Ejemplos prácticos
+6. Decoradores anidados
+7. Decoradores de métodos
+8. Decoradores de propiedades
+9. Decoradores de parámetros
+```
+
+-> ver el directorio `ts-node / src / decorators`
+
+[Documentacion](https://www.typescriptlang.org/docs/handbook/decorators.html), es una funcion que se utilizar para añadir o expandir funcionalidades a un objeto. Se ven con `@`, Angular lo usa.
+
+---
+
+## 11 - Usando librerias que no están escritas en TypeScript
+
+
+```
+1. Configuración de un proyecto utilizando el package.json y realizar instalaciones con node.
+2. Utilizar archivos de definiciones "*.d.ts" o Typings
+3. Agregar definiciones de archivos mediante node
+```
+
 ---
