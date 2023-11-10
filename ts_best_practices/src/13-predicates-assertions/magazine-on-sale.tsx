@@ -1,27 +1,29 @@
-import Image from 'next/image';
-import type { FC } from 'react';
-import magazineImage from './images/magazine.png';
-import { Magazine } from './types';
+import type { FC } from 'react'
+import { BookOnSale } from './book-on-sale'
+import { MagazineOnSale } from './magazine-on-sale'
+import { PenOnSale } from './pen-on-sale'
+import { assertNever, ItemsOnSale } from './types'
 
 type Props = {
-  magazine: Magazine;
+  item: ItemsOnSale;
 };
 
-export const MagazineOnSale: FC<Props> = ({ magazine }) => {
-  return (
-    <div className="card mb-3">
-      <Image
-        src={magazineImage}
-        alt={magazine.title}
-        className="card-img-top"
-      />
-      <div className="card-body">
-        <h4 className="card-title text-capitalize mb-3">{magazine.title}</h4>
+export const ItemOnSale: FC<Props> = ({ item }) => {
 
-        <div className="mb-3">
-          <button className="btn btn-secondary">Add</button>
-        </div>
-      </div>
-    </div>
-  );
-};
+  switch (item.type) {
+
+    case 'book':
+      return <BookOnSale book={ item } />
+
+    case 'magazine':
+      return <MagazineOnSale magazine={ item } />
+
+    case 'pen':
+      return <PenOnSale pen={ item } />
+
+    default:
+      assertNever(item)
+  }
+
+  return null
+}

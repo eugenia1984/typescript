@@ -18,8 +18,10 @@ export const PizzaShop: FC<Props> = ({
   extraIngredients,
   pizzas
 }) => {
+
   const { formatNumber } = useIntl()
   const [order, setOrder] = useState<PizzaOnOrder[]>([])
+
   const totalPrice = useMemo(() => calculateTotalPrice(order), [order])
 
   const getExtraIngredient = (name: string): ExtraIngredient =>
@@ -44,10 +46,7 @@ export const PizzaShop: FC<Props> = ({
           <div className="position-sticky top-0">
             <h4>Your Order</h4>
             { order.map((pizza, index) => (
-              <OrderedPizza
-                key={ index }
-                pizza={ pizza }
-              />
+              <OrderedPizza key={ index } pizza={ pizza } />
             )) }
             <div className="d-flex justify-content-between fw-bold fs-5">
               <div className="ms-3">Total amount: </div>

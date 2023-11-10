@@ -5,7 +5,7 @@ export type Pizza = {
   extras: string[];
 }
 
-export type ExtraIngredients = Record<string, ExtraIngredient>
+export type ExtraIngredients = Record<string, ExtraIngredient>;
 
 export type ExtraIngredient = {
   name: string;

@@ -1,6 +1,6 @@
-import type { FC } from 'react';
-import { ItemOnSale } from './item-on-sale';
-import { ItemsOnSale } from './types';
+import type { FC } from 'react'
+import { ItemOnSale } from './item-on-sale'
+import { ItemsOnSale } from './types'
 
 const itemsOnSale: ItemsOnSale[] = [
   {
@@ -11,15 +11,15 @@ const itemsOnSale: ItemsOnSale[] = [
   },
   { type: 'magazine', title: 'BYTE Magazine' },
   { type: 'pen', color: 'blue' },
-];
+]
 
 export const BookShop: FC = () => (
   <div className="row">
-    <h3 className="my-4">There are {itemsOnSale.length} items on sale</h3>
-    {itemsOnSale.map((item, index) => (
-      <div key={index} className="col-3">
-        <ItemOnSale item={item} />
+    <h3 className="my-4">There are { itemsOnSale.length } items on sale</h3>
+    { itemsOnSale.map((item, index) => (
+      <div key={ index } className="col-3">
+        <ItemOnSale item={ item } />
       </div>
-    ))}
+    )) }
   </div>
-);
+)

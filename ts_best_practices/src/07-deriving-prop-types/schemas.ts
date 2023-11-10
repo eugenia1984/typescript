@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod';
 
 export const pizzaSchema = z.object({
   name: z.string(),
@@ -7,7 +7,7 @@ export const pizzaSchema = z.object({
   extras: z.string().array(),
 })
 
-export const pizzasSchema = z.array(pizzaSchema)
+export const pizzasSchema = z.array(pizzaSchema);
 
 export const extraIngredientSchema = z.object({
   name: z.string(),

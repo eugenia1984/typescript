@@ -1,9 +1,23 @@
-import { FC, LabelHTMLAttributes } from 'react';
+import { ComponentProps, FC, ReactNode, useId } from 'react'
+import { Input } from './input'
+import { Label } from './label'
 
-type Props = LabelHTMLAttributes<HTMLLabelElement>;
+type InputProps = ComponentProps<typeof Input>
 
-export const Label: FC<Props> = ({ children, ...props }) => (
-  <label className="form-check-label" {...props}>
-    {children}
-  </label>
-);
+type Props = {
+  children: ReactNode;
+} & InputProps;
+
+export const LabeledInput: FC<Props> = ({
+  children,
+  ...props
+}) => {
+  const internalId = useId()
+
+  return (
+    <div className="mb-3">
+      <Label htmlFor={ internalId }>{ children }</Label>
+      <Input id={ internalId } { ...props } />
+    </div>
+  );
+};

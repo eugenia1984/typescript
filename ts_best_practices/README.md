@@ -194,7 +194,6 @@ TItem extends keyof typeof config[TSection]
 }
 ```
 
-
 6. **Generic React prop types**
 
 - React component prop types can also be generic
@@ -207,12 +206,11 @@ TItem extends keyof typeof config[TSection]
 
 - Very powerful to create reusable, flexible but fully typed components
 
-
 7. **Deriving component prop types**
 
 - **Infer a component Prop type**
 
--Using ``React.ComponentProps<typeof Component>``
+-Using `React.ComponentProps<typeof Component>`
 
 - ** No need to publicly export** all those prop definitions
 
@@ -222,15 +220,128 @@ TItem extends keyof typeof config[TSection]
 
 -Use type mappings to modify the type as needed
 
-8.
+8. **Inferring Zod schema types**
 
-9.
+- Maintaining a Zod schema and a TypeScript interface is tedious
 
-10.
+-Both have to be kept in sync
 
-11.
+- The TypeScript types can be inferred from the Zod schema
 
-12.
+-Using `“z.infer<typeof schema>”`
+
+9. **Type mapping with Omit<> and/or Pick<>**
+
+- Type mapping lets you create a new type based on an existing type
+
+-With one or more modifications
+
+- There are many build in type mappings
+
+-`“Omit<T>”`: Create a new type by removing one or more pros
+
+-`“Pick<T>”`: Create a new type with just the specified props
+
+- A type mapping can contain **conditional logic** to alter a part of the type
+
+10. **Using Readonly<>**
+
+- The `Readonly<T>` mapped type creates a read-only mapped type
+
+-Can’t change properties anymore
+
+-Or use `array.push()` etc.
+
+- ⚠️`Readonly<T>` is not recursive⚠️
+
+- Only the first level of properties becomes read-only
+
+- 💡Recommended for function arguments to show intent💡
+
+-And AJAX responses etc
+
+11. **Custom type mapping DeepReadonly<>**
+
+- Make a whole nested object structure read-only
+
+- Recursive mapped types are very powerful
+
+- An improvement over the default `Readonly<T>`
+
+12. **Displaying types**
+
+- A disadvantage of mapped types is that the type definition in
+  tooltips becomes hard to read
+
+-It shows how a type is constructed instead of the resulting type
+
+- The `Resolve<T>` turns this into the resulting type instead
+
+-Source: https://effectivetypescript.com/2022/02/25/gentips-4-display/
+
+13. **Type Predicate Functions**
+
+- Often a TypeScript cast is used when types don’t quite line up
+
+-But that is just silencing the compiler
+
+-⚠️Casting via “unknown” will even allow any (invalid) type cast ⚠️
+
+-There is no runtime checking or guarantee
+
+- A type predicate can do a cast in a runtime safe manner
+
+-💡Checks both at runtime and compile time💡
+
+-A function that returns a “boolean” to indicate if the type matches
+
+14. **Type Assertion Functions**
+
+- Type assertion functions can be even easier
+
+-Throw an error if the type doesn’t match
+
+- Often a better alternative then a cast
+
+-The code will not continue if the assumption is wrong
+
+15. **Exhaustiveness Checking**
+
+- The TypeScript compiler doesn’t tell us if every case is provided
+
+-It’s easy to forget to add a switch case when an enumeration is expanded
+
+- The “never” type is a great way to make sure
+
+-A compile error if the default case can be reached
+
+-💡Make sure to add an exception or error logging at runtime�
+
+### Conclution
+
+TypeScript’s strict settings help catch many errors
+
+- Make sure to turn on the additional strict features as well
+
+- TypeScript offers a lot of features for React component props
+
+- Infer or mutate prop types and detect invalid combinations of values
+
+- Validate all data at boundaries
+
+- Not just from the user, also from API’s
+
+- Use mapped types to create new types
+
+- The possibilities are almost endless
+
+- Use type predicates and assertions both at compile and run-time
+
+- Instead of just casting at compile time
+
+- Enable exhaustiveness checking with the “never” type
+
+- Make sure to log unexpected cases at runtime
 
 ---
 

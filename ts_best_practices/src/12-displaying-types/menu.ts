@@ -3,7 +3,7 @@ import {
   ExtraIngredient,
   ExtraIngredients,
   Pizza,
-} from './types';
+} from './types'
 
 export const pizzas: DeepReadonly<Pizza[]> = [
   {
@@ -41,7 +41,7 @@ export const pizzas: DeepReadonly<Pizza[]> = [
     price: 11.75,
     extras: ['cheese', 'pepperoni', 'tomatoes'],
   },
-];
+]
 
 export const extraIngredients: ExtraIngredients = {
   cheese: { name: 'Cheese', price: 0.5 },
@@ -50,14 +50,14 @@ export const extraIngredients: ExtraIngredients = {
   tomatoes: { name: 'Tomatoes', price: 0.5 },
   olives: { name: 'Olives', price: 0.6 },
   mushrooms: { name: 'Mushrooms', price: 0.6 },
-};
+}
 
 export const getExtraIngredient = (name: string): ExtraIngredient => {
-  const extraIngredient = extraIngredients[name];
+  const extraIngredient = extraIngredients[name]
 
   if (!extraIngredient) {
-    throw new Error(`Extra ingredient ${name} does not exist`);
+    throw new Error(`Extra ingredient ${ name } does not exist`)
   }
 
-  return extraIngredient;
-};
+  return extraIngredient
+}

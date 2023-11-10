@@ -1,47 +1,46 @@
-import type { ExtraIngredient, Pizza, PizzaOnOrder } from './types';
-
-import { FC, useState } from 'react';
-
-import { useIntl } from 'react-intl';
-import { LabeledCheckbox } from '../components';
+import type { ExtraIngredient, Pizza, PizzaOnOrder } from './types'
+import { FC, useState } from 'react'
+import { useIntl } from 'react-intl'
+import { LabeledCheckbox } from '../components'
 
 type Props = {
   pizza: Pizza;
   getExtraIngredient: (name: string) => ExtraIngredient;
   onAddToOrder: (pizza: PizzaOnOrder) => void;
-};
+}
 
 export const PizzaOnMenu: FC<Props> = ({
   pizza,
   getExtraIngredient,
   onAddToOrder,
 }) => {
-  const [extras, setExtras] = useState<string[]>([]);
-  const { formatList } = useIntl();
+
+  const [extras, setExtras] = useState<string[]>([])
+  const { formatList } = useIntl()
 
   return (
     <div className="card mb-3">
       <div className="card-body">
-        <h4 className="card-title text-capitalize mb-3">{pizza.name}</h4>
+        <h4 className="card-title text-capitalize mb-3">{ pizza.name }</h4>
         <div className="mb-3">
           <h5 className="card-title">Ingredients:</h5>
           <div className="ms-1">
-            {formatList(
+            { formatList(
               pizza.ingredients.map((ingredient) => (
-                <span key={ingredient} className="text-capitalize">
-                  {ingredient}
+                <span key={ ingredient } className="text-capitalize">
+                  { ingredient }
                 </span>
               ))
-            )}
+            ) }
           </div>
         </div>
         <div className="mb-3">
           <h5 className="card-title">Extras</h5>
-          {pizza.extras.map((extra) => (
+          { pizza.extras.map((extra) => (
             <LabeledCheckbox
-              key={extra}
-              checked={extras.includes(extra)}
-              onChange={() => {
+              key={ extra }
+              checked={ extras.includes(extra) }
+              onChange={ () => {
                 setExtras((extras) => {
                   if (extras.includes(extra)) {
                     return extras.filter((x) => x !== extra);
@@ -49,15 +48,15 @@ export const PizzaOnMenu: FC<Props> = ({
                     return [...extras, extra];
                   }
                 });
-              }}
+              } }
             >
-              <span className="text-capitalize">{extra}</span>
+              <span className="text-capitalize">{ extra }</span>
             </LabeledCheckbox>
-          ))}
+          )) }
         </div>
         <button
           className="btn btn-secondary"
-          onClick={() =>
+          onClick={ () =>
             onAddToOrder({
               ...pizza,
               extraIngredients: extras.map(getExtraIngredient),
@@ -68,5 +67,5 @@ export const PizzaOnMenu: FC<Props> = ({
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
