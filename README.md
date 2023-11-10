@@ -18,7 +18,7 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 ---
 
-## <img width="46" height="46" src="https://img.icons8.com/office/46/monitor.png" alt="monitor"/> Tecnología
+## <img width="46" height="46" src="https://img.icons8.com/office/46/monitor.png" alt="monitor"/> Tecnologías:
 
 - <img width="38" height="38" src="https://img.icons8.com/color/38/javascript--v1.png" alt="javascript"/> JavaScript
 
@@ -28,6 +28,9 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 -  <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/> Expressjs
   
+- <img width="38" height="38" src="https://img.icons8.com/color/38/npm.png" alt="npm"/> npm
+
+- <img width="38" height="38" src="https://img.icons8.com/color/38/git.png" alt="git"/> git
 ---
 
 ## NOTAS:
