@@ -1,18 +1,21 @@
-import { FC, useState } from 'react';
-import { LabeledInput } from '../components';
+import { ReactElement, useState } from 'react'
+import { LabeledInput } from '../components'
 
-type Props<TValues> = {
+type Props<TData> = {
   header: string;
-  initialValues: TValues;
-  onSubmit: (values: TValues) => void;
-};
+  initialValues: TData
+  onSubmit: (values: TData) => void;
+}
 
-export function GenericForm<TValues extends Record<string, any>>({
+export function GenericForm<
+  TData extends Record<string, string |number | readonly string [] | undefined>
+>({
   header,
   initialValues,
-  onSubmit,
-}: Props<TValues>) {
-  const [values, setValues] = useState(initialValues);
+  onSubmit
+}: Props<TData>): ReactElement {
+  
+  const [values, setValues] = useState(initialValues)
 
   return (
     <form className="mb-5" onSubmit={() => onSubmit(values)}>
@@ -27,9 +30,12 @@ export function GenericForm<TValues extends Record<string, any>>({
           <span className="text-capitalize">{key}:</span>
         </LabeledInput>
       ))}
-      <button type="submit" className="btn btn-primary">
+      <button
+        type="submit"
+        className="btn btn-primary"
+      >
         Submit
       </button>
     </form>
-  );
+  )
 }

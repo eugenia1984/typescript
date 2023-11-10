@@ -36,7 +36,203 @@
 
 - ESLint
 
-- Typescript"
+- Typescript
+
+---
+
+## Ver en local
+
+Para ver el proyecto en local: `http://localhost:3000` en consola: `npm run dev`
+
+---
+
+## Notas
+
+### Compiling the code
+
+- Quite often TypeScript code is not type checked during development
+
+-Create React App use **Babel**
+
+-Vite can use Babel or SWC
+
+-Next.js uses **SWC**, it's a fast TypeScript compiler to ES6
+
+### Add at package.json, at scripts:
+
+```
+"compile": "tsc --noEmit",
+"compile:watch": "tsc --noEmit --watch",
+```
+
+To check TypeScript at developing time, and be able to see errors
+
+**tsc** -> typescript compiler
+
+**--watch** -> to be constant checking
+
+### Components and TypeScript
+
+- React components can be written in different ways
+
+-Named functions or arrow functions
+
+-Just like with ECMAScript
+
+- Create a type to describe the component Props
+
+-Either an interface or a type alias
+
+- Annotate the result as a valid React type
+
+-Or let TypeScript infer the resulting type
+
+- Typing with an arrow function is often easier with `React.FC<TProp>`
+
+-But doesn’t work well with generic components
+
+---
+
+## Prácticas
+
+1. **Converting JavaScript to TypeScript**
+
+Si es un componente en vez de `.ts` se debe poner `.tsx`, sino marca errores en las etiquetas de JSX(HTML)
+
+Si el componente tiene props se tipan en una interface o con type.
+
+Si no uso `FC`, sería asi: `export function Alert({ messageId, variant }: AlertProps) {}`.
+
+Pero se puede usar: `const Alert: FC<AlertProps> = ({ messageId, variant }) => {}`, **FC** es Functional Component y si ahora tiene `{children}` hay que usarlos en las props como `ReactElement` o `ReactNode`
+
+2. **Mutually exclusive props**
+
+- ometimes not all combinations of props are allowed
+
+-Two props might be mutually exclusive
+
+-You must pass one of them but not both
+
+- Use an or between multiple prop types
+
+-With an optional “never” to prevent illegal combinations
+
+```
+type Props = (
+  | {
+      message: string;
+      messageId?: never;
+    }
+  | {
+      message?: never;
+      messageId: string;
+    }
+) & {
+  variant?: Variant;
+}
+```
+
+3. **More Strict Features**
+
+There are many more strict settings not enabled by “strict”
+
+```
+- allowUnreachableCode
+- allowUnusedLabels
+- exactOptionalPropertyTypes
+- noFallthroughCasesInSwitch
+- noImplicitOverride
+- noImplicitReturns
+- noPropertyAccessFromIndexSignature
+- noUncheckedIndexedAccess
+- noUnusedLocals
+- noUnusedParameters
+```
+
+En **tsconfig.json**:
+
+`“noUncheckedIndexedAccess” : true`
+
+4. **Validating Data**
+
+- The type definitions are used at compile time
+
+- They might not match the runtime behavior
+
+- Specially when doing AJAX requests or reading JSON files
+
+-> Usamos un **Schema** y **zud**
+
+5. **Inferring TypeScript types**
+
+- In many cases TypeScript can infer types from existing objects
+
+-Not just the object shape but also valid keys
+
+- Use the “extends” keyword to limit a generic type argument
+
+-One generic argument can be used to infer a second etc.
+
+```TypeScript
+function getConfigItem<
+TSection extends keyof typeof config,
+TItem extends keyof typeof config[TSection]
+>(section: TSection, item: TItem) {
+  const config: any = {
+    user: {
+      firstName: 'John',
+      birthDate: new Date(1990, 6, 10),
+    },
+    address: {
+      street: 'Main St',
+      houseNumber: 123,
+      city: 'New York',
+    },
+  };
+
+  return config[section][item]
+}
+```
+
+
+6. **Generic React prop types**
+
+- React component prop types can also be generic
+
+-To ensure that various props have matching type definitions
+
+- The generic type can be specified when the component is rendered
+
+-Or will automatically inferred if not
+
+- Very powerful to create reusable, flexible but fully typed components
+
+
+7. **Deriving component prop types**
+
+- **Infer a component Prop type**
+
+-Using ``React.ComponentProps<typeof Component>``
+
+- ** No need to publicly export** all those prop definitions
+
+-Just in case they are needed
+
+- Very useful when you want to export the **nested component props**
+
+-Use type mappings to modify the type as needed
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

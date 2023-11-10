@@ -20,9 +20,21 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 ## <img width="46" height="46" src="https://img.icons8.com/office/46/monitor.png" alt="monitor"/> Tecnologías:
 
+- Bootstrap
+
 - <img width="38" height="38" src="https://img.icons8.com/color/38/javascript--v1.png" alt="javascript"/> JavaScript
 
 - <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/> TypeScript
+
+- <img width="38" height="38" src="https://img.icons8.com/office/38/react.png" alt="react"/> React, react-dom y react-intl
+
+- <img width="38" height="38" src="https://img.icons8.com/fluency-systems-regular/38/nextjs.png" alt="nextjs"/> Nextjs
+
+- SWR
+
+- zod
+
+- <img width="38" height="38" src="https://img.icons8.com/color/38/eslint.png" alt="eslint"/> 
 
 - <img width="38" height="38" src="https://img.icons8.com/color/38/nodejs.png" alt="nodejs"/> Nodejs
 
@@ -31,6 +43,8 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 - <img width="38" height="38" src="https://img.icons8.com/color/38/npm.png" alt="npm"/> npm
 
 - <img width="38" height="38" src="https://img.icons8.com/color/38/git.png" alt="git"/> git
+
+
 ---
 
 ## NOTAS:

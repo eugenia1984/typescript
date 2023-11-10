@@ -1,21 +1,21 @@
-import type { PizzaOnOrder } from './types';
-
-import { FC, useMemo, useState } from 'react';
-import { useIntl } from 'react-intl';
-import { pizzas } from './menu';
-import { OrderedPizza } from './ordered-pizza';
-import { PizzaOnMenu } from './pizza-on-menu';
+import type { PizzaOnOrder } from './types'
+import { FC, useMemo, useState } from 'react'
+import { useIntl } from 'react-intl'
+import { pizzas } from './menu'
+import { OrderedPizza } from './ordered-pizza'
+import { PizzaOnMenu } from './pizza-on-menu'
 
 export const PizzaShop: FC = () => {
-  const { formatNumber } = useIntl();
-  const [order, setOrder] = useState<PizzaOnOrder[]>([]);
-  const totalPrice = useMemo(() => calculateTotalPrice(order), [order]);
+
+  const { formatNumber } = useIntl()
+  const [order, setOrder] = useState<PizzaOnOrder[]>([])
+  const totalPrice = useMemo(() => calculateTotalPrice(order), [order])
 
   return (
     <div>
       <h3>Pizza Shop</h3>
-      <div className="row gap-3">
-        <div className="col-3">
+      <div className="row gap-1">
+        <div className="col-xs-12 col-sm-5">
           <h4>Menu</h4>
           {pizzas.map((pizza) => (
             <PizzaOnMenu
@@ -25,7 +25,7 @@ export const PizzaShop: FC = () => {
             />
           ))}
         </div>
-        <div className="col-3">
+        <div className="col-xs-12 col-sm-6">
           <div className="position-sticky top-0">
             <h4>Your Order</h4>
             {order.map((pizza, index) => (
@@ -48,11 +48,13 @@ export const PizzaShop: FC = () => {
 };
 
 function calculateTotalPrice(order: PizzaOnOrder[]) {
+
   return order.reduce((sum, pizza) => {
     const extraPrice = pizza.extraIngredients.reduce(
       (sum, extra) => sum + extra.price,
       0
-    );
+    )
+
     return sum + pizza.price + extraPrice;
-  }, 0);
+  }, 0)
 }

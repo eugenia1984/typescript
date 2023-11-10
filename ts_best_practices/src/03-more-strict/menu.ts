@@ -1,4 +1,4 @@
-import { ExtraIngredient, ExtraIngredients, Pizza } from './types';
+import { ExtraIngredient, ExtraIngredients, Pizza } from './types'
 
 export const pizzas: Pizza[] = [
   {
@@ -50,10 +50,16 @@ export const extraIngredients: ExtraIngredients = {
   tomatoes: { name: 'Tomatoes', price: 0.5 },
   olives: { name: 'Olives', price: 0.6 },
   mushroms: { name: 'Mushrooms', price: 0.6 },
-};
+}
 
 export const getExtraIngredient = (name: string): ExtraIngredient => {
-  const extraIngredient = extraIngredients[name] ?? { name, price: 0 };
+  const extraIngredient = extraIngredients[name] 
 
-  return extraIngredient;
-};
+  if (!extraIngredient) { 
+    //throw new Error(`Extra ingredient ${name} not found`)
+    console.warn(`Extra ingredient ${ name } not found`)
+    return {name, price: 0.5}
+  }
+
+  return extraIngredient
+}

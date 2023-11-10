@@ -1,41 +1,41 @@
-import { FC } from 'react';
-import { GenericForm } from './generic-form';
+import { FC } from 'react'
+import { GenericForm } from './generic-form'
 
 export const TwoForms: FC = () => {
   return (
     <>
+      {/* <GenericForm<{firstName: string, lastName: string, }> */ }
       <GenericForm
         header="User"
-        initialValues={{
+        initialValues={ {
           firstName: 'John',
           lastName: 'Doe',
-        }}
-        onSubmit={(values) =>
+        } }
+        onSubmit={ (values) =>
           alert(
-            `${values.firstName} ${values.lastName}\n\n${JSON.stringify(
+            `${ values.firstName } ${ values.lastName }\n\n${ JSON.stringify(
               values,
               null,
               2
-            )}`
+            ) }`
           )
         }
       />
 
       <GenericForm
         header="Address"
-        initialValues={{
+        initialValues={ {
           street: 'Main St',
           houseNumber: '123',
           city: 'New York',
-        }}
-        onSubmit={(values) =>
+        } }
+        onSubmit={ (values) =>
           alert(
-            `${values.street} ${values.houseNumber} ${
-              values.city
-            }\n\n${JSON.stringify(values, null, 2)}`
+            `${ values.street } ${ values.houseNumber } ${ values.city
+            }\n\n${ JSON.stringify(values, null, 2) }`
           )
         }
       />
     </>
-  );
-};
+  )
+}

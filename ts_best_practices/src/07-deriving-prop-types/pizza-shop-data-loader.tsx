@@ -1,12 +1,10 @@
-import type { FC } from 'react';
-import useSWR from 'swr';
+import type { FC } from 'react'
+import useSWR from 'swr'
+import type { ExtraIngredients, Pizza } from './types'
+import { PizzaShop } from './pizza-shop'
+import { extraIngredientsSchema, pizzasSchema } from './schemas'
 
-import type { ExtraIngredients, Pizza } from './types';
-
-import { PizzaShop } from './pizza-shop';
-import { extraIngredientsSchema, pizzasSchema } from './schemas';
-
-const server = 'http://localhost:3000';
+const server = 'http://localhost:3000'
 
 export const PizzaShopDataLoader: FC = () => {
   const { data: pizzas, error: pizzasError } = useSWR<Pizza[]>(
@@ -32,7 +30,7 @@ export const PizzaShopDataLoader: FC = () => {
         Something went wrong
         {pizzasError?.message ?? extraIngredientsError?.message}
       </div>
-    );
+    )
   }
 
   if (!pizzas || !extraIngredients) {
@@ -40,8 +38,8 @@ export const PizzaShopDataLoader: FC = () => {
       <div className="spinner-border text-secondary" role="status">
         <span className="visually-hidden">Loading...</span>
       </div>
-    );
+    )
   }
 
-  return <PizzaShop extraIngredients={extraIngredients} pizzas={pizzas} />;
-};
+  return <PizzaShop extraIngredients={extraIngredients} pizzas={pizzas} />
+}

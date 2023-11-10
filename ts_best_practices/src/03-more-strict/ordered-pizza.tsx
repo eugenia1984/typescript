@@ -1,14 +1,14 @@
-import type { FC } from 'react';
-import type { PizzaOnOrder } from './types';
-
-import { useIntl } from 'react-intl';
+import type { FC } from 'react'
+import type { PizzaOnOrder } from './types'
+import { useIntl } from 'react-intl'
 
 type Props = {
   pizza: PizzaOnOrder;
-};
+}
 
 export const OrderedPizza: FC<Props> = ({ pizza }) => {
-  const { formatNumber } = useIntl();
+
+  const { formatNumber } = useIntl()
 
   return (
     <div className="card mb-3">
@@ -37,5 +37,5 @@ export const OrderedPizza: FC<Props> = ({ pizza }) => {
         </ol>
       </div>
     </div>
-  );
-};
+  )
+}
