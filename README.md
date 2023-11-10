@@ -12,6 +12,8 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 - [**Best practices & advanced TypeScript tips for React devs** - curso de Udemy de Maurice de Beijer](https://github.com/eugenia1984/typescript/tree/main/ts_best_practices)
 
+![image](https://github.com/eugenia1984/typescript/assets/72580574/c546a43f-d77a-4e10-b93f-f2eadd872b14)
+
 
 - [ Master en TypeScript, JavaScript Moderno, ES2023, APIs HTML5 - Udemy - Victor Robles](https://github.com/eugenia1984/typescript/tree/main/typescript_udemy_victor_robles)
 
