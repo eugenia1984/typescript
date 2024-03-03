@@ -17,6 +17,7 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 - [ Master en TypeScript, JavaScript Moderno, ES2023, APIs HTML5 - Udemy - Victor Robles](https://github.com/eugenia1984/typescript/tree/main/typescript_udemy_victor_robles)
 
+- [TypeScript - Udemy - Daniel Stern](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern)
 
 ---
 
@@ -52,9 +53,5 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 ## NOTAS:
 
 Agradezco su interés en este proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y sígueme en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
-
----
-
-Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
