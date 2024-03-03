@@ -6,14 +6,14 @@
 
 - powerful features: classes and modules
 
-- integrate with Grunt (the JavaScript task runner) or Glup (automate and enhace your workflow)
+- integrate with Grunt (the JavaScript task runner) or Gulp (automate and enhace your workflow, TypeScript compiler)
 
 
 ## Is TypeScript right for you or your projects?
 
 - Works well for larger projects
 
-- Good for long term maintainance
+- Good for long term maintenance
 
 ---
 
@@ -21,7 +21,13 @@
 
 ### 1 - Getting started
 
+1. Install **Node.js** and **npm**
+
+2. Install **typescript**: `npm install -g typescript`
+
 ### 2 - Basic TypeScript
+
+1. Inside the **typescript** folder, compile to JavaScript with: `tsc hello-world.ts`
 
 ### 3 - TypeScript Implementations
 
