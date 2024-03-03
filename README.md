@@ -19,6 +19,8 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 - [TypeScript - Udemy - Daniel Stern](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern)
 
+- [TypeScript from scratch - Udemy - JAP Software](https://github.com/eugenia1984/typescript/tree/main/ts_jap_software)
+
 ---
 
 ## <img width="46" height="46" src="https://img.icons8.com/office/46/monitor.png" alt="monitor"/> Tecnologías:
