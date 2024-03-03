@@ -8,7 +8,6 @@
 
 - integrate with Grunt (the JavaScript task runner) or Gulp (automate and enhace your workflow, TypeScript compiler)
 
-
 ## Is TypeScript right for you or your projects?
 
 - Works well for larger projects
@@ -17,7 +16,7 @@
 
 ---
 
-## <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/>  Modules
+## <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/> Modules
 
 ### 1 - Getting started
 
@@ -33,11 +32,11 @@
 
 Types are important during compile-time.
 
-- Basic types: Boolean, Number, String, Array, Enum, Any and Void.
+- Basic types: Boolean, Number, String, Array, Enum, Any and Void. -> [file `types.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/types.ts)
 
-- Interfaces: a blueprint for an object
+- Interfaces: a blueprint for an object -> [file `types.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/types.ts)
 
-- Classes
+- Classes: supercharged object blueprint -> [file `class.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/class.ts)
 
 - Modules
 

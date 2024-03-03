@@ -33,7 +33,7 @@ function sayHello(): void {
   console.log("Hello");
 }
 
-/******** Interfaces *********/
+/********** Interfaces ***********/
 // ? optional in the interface
 interface Stark {
   name: string;
