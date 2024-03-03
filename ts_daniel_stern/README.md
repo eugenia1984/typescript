@@ -38,7 +38,7 @@ Types are important during compile-time.
 
 - Classes (inheritance): supercharged object blueprint -> [file `class.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/class.ts)
 
-- Modules
+- Modules: to share code between files -> [file `timesTwo.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/timesTwo.ts), [file `util.ts`]-> [file `class.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/util.ts) and [file `util.js`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/util.js). Command: `tsc util.ts timesTwo.ts --out util.js`
 
 - Functions
 
