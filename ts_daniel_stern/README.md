@@ -36,7 +36,7 @@ Types are important during compile-time.
 
 - Interfaces: a blueprint for an object -> [file `types.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/types.ts)
 
-- Classes: supercharged object blueprint -> [file `class.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/class.ts)
+- Classes (inheritance): supercharged object blueprint -> [file `class.ts`](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern/typescript/class.ts)
 
 - Modules
 
