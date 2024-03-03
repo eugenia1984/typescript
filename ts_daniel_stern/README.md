@@ -50,6 +50,8 @@ Types are important during compile-time.
 
 ### 3 - TypeScript Implementations
 
+**Grunt** has a lots of pluggins that automate daily tasks.
+
 ### 4 - Building an App with TypeScript
 
 ---
