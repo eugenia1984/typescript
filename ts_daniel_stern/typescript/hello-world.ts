@@ -6,4 +6,5 @@ function helloName (string: String) {
 
 helloName("Eugenia");
 // I can only pass string, not other types, like numbers
+// This will give me an error:
 // helloName(1);

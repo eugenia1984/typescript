@@ -25,9 +25,29 @@
 
 2. Install **typescript**: `npm install -g typescript`
 
+3. Inside the **typescript** folder, compile to JavaScript with: `tsc hello-world.ts`
+
+[https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
+
 ### 2 - Basic TypeScript
 
-1. Inside the **typescript** folder, compile to JavaScript with: `tsc hello-world.ts`
+Types are important during compile-time.
+
+- Basic types: Boolean, Number, String, Array, Enum, Any and Void.
+
+- Interfaces: a blueprint for an object
+
+- Classes
+
+- Modules
+
+- Functions
+
+- Generics
+
+- Common errors
+
+- Mixins
 
 ### 3 - TypeScript Implementations
 
