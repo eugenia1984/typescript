@@ -16,3 +16,15 @@
 - Good for long term maintainance
 
 ---
+
+## <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/>  Modules
+
+### 1 - Getting started
+
+### 2 - Basic TypeScript
+
+### 3 - TypeScript Implementations
+
+### 4 - Building an App with TypeScript
+
+---
