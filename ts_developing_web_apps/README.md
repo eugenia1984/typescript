@@ -52,3 +52,11 @@ The benefits are:
 - It supports OOPs concepts like: classes, interfaces, inheritance, etc.
 
 ---
+
+## Pre requisites:
+
+- Must have [Node.js](https://nodejs.org/en) and npm installed. To verify Nodejs on the system: `node -v`
+
+- Must have TypeScript, if not, you can install with: `npm install -g typescript`
+
+---
