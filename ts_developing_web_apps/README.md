@@ -28,3 +28,27 @@
 
 ---
 
+## TS and ECMAScript
+
+```
+ECMASC + ECMASC + Additional = TS
+RITP5     ROTP6   Features
+```
+
+---
+
+##Why use TS?
+
+TS is superior to its other replicas, like CoffeScript and dArt programming languages, because TS is advanced JS.
+
+The benefits are:
+
+- compilation
+
+- strong static typing
+
+- TS supports type definitions for existing JS libraries.
+
+- It supports OOPs concepts like: classes, interfaces, inheritance, etc.
+
+---
