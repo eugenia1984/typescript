@@ -39,7 +39,7 @@ RITP5     ROTP6   Features
 
 ##Why use TS?
 
-TS is superior to its other replicas, like CoffeScript and dArt programming languages, because TS is advanced JS.
+TS is superior to its other replicas, like CoffeScript and Dart programming languages, because TS is advanced JS.
 
 The benefits are:
 
