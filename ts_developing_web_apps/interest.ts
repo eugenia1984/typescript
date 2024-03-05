@@ -5,3 +5,5 @@ const time: number = 15;
 const interest = principal * time * rate/100;
 
 console.log("Simple interest: ", interest);
+
+// tsc interest.ts to compile
