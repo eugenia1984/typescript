@@ -75,7 +75,7 @@ The benefits are:
 
 ...**built-in / primitive** like: number, void (the return type for functions that don't return any kind of value), string, null (a variable with an unknown value) and boolean (true or false) 
 
-...**user defined data type** like: array (a group of elements), class (serve as a model for building objects and are used to build reusable components), touple (contain two sets of values of various data kind), enum, interface, functions
+...**user defined data type** like: array (a group of elements), class (serve as a model for building objects and are used to build reusable components), touple (contain two sets of values of various data kind), enum, interface (a structure that serves as a contract for uor application), functions
 
 
 ---
