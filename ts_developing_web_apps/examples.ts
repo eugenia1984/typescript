@@ -58,4 +58,8 @@ class C {
 let otherVar: any = "hello";
 let myVar: any = 12;
 myVar = otherVar as string;
-console.log(typeof (myVar));
+console.log(typeof(myVar));
+
+// type assertion using <>
+myVar = <string>otherVar;
+console.log(typeof(myVar));

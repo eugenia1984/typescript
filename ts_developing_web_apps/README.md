@@ -84,4 +84,6 @@ The benefits are:
 
 - **type assertion**: is used to declare a variable's type and instruct the compiler not to infer it.
 
+- **type assertion using <>**
+
 ---
