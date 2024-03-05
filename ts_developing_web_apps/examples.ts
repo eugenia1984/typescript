@@ -38,3 +38,17 @@ function identity<T>(arg: T): T {
 
 let output1 = identity<string>("my string");
 let output2 = identity<number>(100);
+
+// Decorator
+function f() {
+  console.log("f(): evaluated");
+
+  return function (target, propertyKey: string, descriptor: PropertyDescriptor) {
+    console.log("f(): called");
+  }
+}
+
+class C {
+  //@ f()
+  method() {}
+}

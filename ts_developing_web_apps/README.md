@@ -80,4 +80,8 @@ The benefits are:
 
 - **generic**: is used to design components that can function with a range of types. T it's used to represent a generic.
 
+- **decorator**: an accessor, method, property and parameter can all have decorators attached to them. It's a specific sort of data. Use the "@"
+
+- **type assertion**
+
 ---
