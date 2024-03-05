@@ -63,3 +63,16 @@ console.log(typeof(myVar));
 // type assertion using <>
 myVar = <string>otherVar;
 console.log(typeof(myVar));
+
+// Function: optional parameter
+function showDetails(id: number, name: string, e_mail_id?: string) {
+
+  console.log("ID: ", id, "Name: ", name);
+
+  if(e_mail_id != undefined) {
+    console.log("E-Mail id: ", e_mail_id);
+  }
+}
+
+showDetails(101, "Andrew");
+showDetails(105, "Mary", "mary12@email.com");
