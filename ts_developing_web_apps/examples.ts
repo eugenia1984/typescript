@@ -20,3 +20,13 @@ let Calculator: Calc = {
     return first - second;
   }
 }
+
+// Function
+function add(number1: number, number2: number): number {
+  return number1 + number2;
+}
+
+// Anonymous function
+let sum = function(numberX: number, numberY: number): number {
+  return numberX + numberY;
+}

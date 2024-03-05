@@ -78,4 +78,6 @@ The benefits are:
 ...**user defined data type** like: array (a group of elements), class (serve as a model for building objects and are used to build reusable components), touple (contain two sets of values of various data kind), enum, interface (a structure that serves as a contract for uor application), functions
 
 
+- **generic**: is used to design components that can function with a range of types. T it's used to represent a generic.
+
 ---
