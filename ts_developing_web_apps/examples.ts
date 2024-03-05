@@ -30,3 +30,11 @@ function add(number1: number, number2: number): number {
 let sum = function(numberX: number, numberY: number): number {
   return numberX + numberY;
 }
+
+// Generic
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let output1 = identity<string>("my string");
+let output2 = identity<number>(100);
