@@ -94,3 +94,9 @@ function suma(a: number, ...b: number[]): number {
 
 let result1 = suma(5, 7);
 let result2 = suma(5, 7, 9, 2);
+
+// Iteration over collection
+let fruits: string[] = ["Apple", "Banana", "Grapes"];
+for (let fruit of fruits ) {
+  console.log("Fruit: ", fruit);
+}
