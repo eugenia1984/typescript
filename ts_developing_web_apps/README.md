@@ -60,3 +60,22 @@ The benefits are:
 - Must have TypeScript, if not, you can install with: `npm install -g typescript`
 
 ---
+
+##TypeScript Types
+
+- Different types of values are supported by the TS language.
+
+- It offers JS data types so that it can became a strongly types programming language
+
+- Data type are an optional Type System that TS offers. The TypeScript data type an be categorized as follows:
+
+`static - generic - decorator`
+
+- **static**: of two types...
+
+...**built-in / primitive** like: number, void (the return type for functions that don't return any kind of value), string, null (a variable with an unknown value) and boolean (true or false) 
+
+...**user defined data type** like: array (a group of elements), class (serve as a model for building objects and are used to build reusable components), touple (contain two sets of values of various data kind), enum, interface, functions
+
+
+---
