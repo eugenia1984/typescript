@@ -52,3 +52,10 @@ class C {
   //@ f()
   method() {}
 }
+
+
+// Type assertion
+let otherVar: any = "hello";
+let myVar: any = 12;
+myVar = otherVar as string;
+console.log(typeof (myVar));

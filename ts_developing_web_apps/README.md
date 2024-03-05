@@ -82,6 +82,6 @@ The benefits are:
 
 - **decorator**: an accessor, method, property and parameter can all have decorators attached to them. It's a specific sort of data. Use the "@"
 
-- **type assertion**
+- **type assertion**: is used to declare a variable's type and instruct the compiler not to infer it.
 
 ---
