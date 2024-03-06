@@ -58,7 +58,7 @@ let analyze = (data: number[]): [number, number, number, number[]] => {
   return [max, min, ave, sd];
 }
 
-let [max, min, ave, id] = analyze([2, 4, 6, 8, 10]);
+let [max, min, ave, sd] = analyze([2, 4, 6, 8, 10]);
 console.log("Maximum: ", max);
 console.log("Minimum: ", min);
 console.log("Average: ", ave);

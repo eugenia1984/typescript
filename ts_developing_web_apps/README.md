@@ -87,3 +87,13 @@ The benefits are:
 - **type assertion using <>**
 
 ---
+
+## INTERFACE
+
+- Contain only method and field declarations, not implementations
+
+- You can't build anything with this. Classes inherit from them, and styles that implement interfaces define all interface members.
+
+- Interfaces disappear from JS files when the TS compilers them to JS. So, it should only be useful during the development stage.
+
+---
