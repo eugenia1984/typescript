@@ -116,4 +116,14 @@ interface interface_name {
 
 - the object return from the function
 
+### Inheritance
+
+- TS allows interfaces to be inherited by zero or more base types (class or interface).
+
+```
+child_interface extends parent_interface {
+
+}
+```
+
 ---
