@@ -200,3 +200,5 @@ ES6 includes static members just like TS. Static members of a class are accessed
 Static members can be defined with the **static** keyword.
 
 ---
+
+## GENERIC AND DECORATORS
