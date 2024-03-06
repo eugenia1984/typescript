@@ -108,4 +108,12 @@ interface interface_name {
 }
 ```
 
+### Uses
+
+- validate the specific structure of the property
+
+- the object passed as a parameter
+
+- the object return from the function
+
 ---
