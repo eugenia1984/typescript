@@ -126,4 +126,10 @@ child_interface extends parent_interface {
 }
 ```
 
+### Optional property
+
+- Are not required
+
+- It will use '?'
+
 ---
