@@ -1,3 +1,4 @@
+/* CLass example */
 class Car {
   // atribute
   engine: string;
@@ -10,3 +11,22 @@ class Car {
     console.log("Engine is: " + this.engine);
   }
 }
+
+/* Inherit example */
+class Shape {
+  area: number;
+
+  constructor(a: number) {
+    this.area = a;
+  }
+}
+
+class Circle extends Shape {
+  disp(): void {
+    console.log("Area of the circle: " + this.area);
+  }
+}
+
+// Class instance: object
+let circle = new Circle(223);
+circle.disp();

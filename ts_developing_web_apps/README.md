@@ -165,4 +165,12 @@ class ClassName {
 
 - A child class inherits all properties and methods from its parent class, except private members and constructors.
 
+### Class inheritance types
+
+1. **single**: each class can extend from at most one parent class.
+
+2. **multiple**: a class can inherit from multiple classes. TS doesn't support multiple inheritance.
+
+3. **multi level**: 
+
 ---
