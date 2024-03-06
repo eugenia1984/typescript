@@ -142,12 +142,17 @@ child_interface extends parent_interface {
 
 ... **attributes**: variable that represent a data related to an object
 
-... **constructor**: allocating memory for objects of the class.
+... **constructor**: allocating memory for objects of the class. It's a special function of a class that is responsible for initializing the variable of the class.
 
 ... **capabilities**(**methods**): actions that an object can perform.
+
+
+- the **this** keyword refers to the current instance of a class, where the parameter name and class field name are the same.
 
 ```
 class ClassName {
 
 }
 ```
+
+---
