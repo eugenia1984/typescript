@@ -193,4 +193,10 @@ It's use **super()** to invoque the parent method or constructor.
 
 Access modifiers are used to encapsulate a class and its member variables.
 
+### Static property
+
+ES6 includes static members just like TS. Static members of a class are accessed using the class name and dot notation without creating an object.
+
+Static members can be defined with the **static** keyword.
+
 ---

@@ -47,3 +47,8 @@ class StringPrinter extends PrinterClass {
 
 let stringPrinter = new StringPrinter();
 stringPrinter.doPrint();
+
+/* Static property */
+class Circles {
+  static pi: number = 3.14;
+}
