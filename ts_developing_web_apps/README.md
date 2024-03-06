@@ -171,6 +171,12 @@ class ClassName {
 
 2. **multiple**: a class can inherit from multiple classes. TS doesn't support multiple inheritance.
 
-3. **multi level**: 
+3. **multi level**: 3 or more levels.
+
+### Class inheritance and method overriding
+
+It's a mechanism by which the child class redefines the superclass's method.
+
+It's use **super()** to invoque the parent method or constructor.
 
 ---
