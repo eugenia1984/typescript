@@ -179,4 +179,18 @@ It's a mechanism by which the child class redefines the superclass's method.
 
 It's use **super()** to invoque the parent method or constructor.
 
+### Access modifiers
+
+- TS supports 4 types:
+
+- **public**
+
+- **private**
+
+- **protected**
+
+- **read-only**
+
+Access modifiers are used to encapsulate a class and its member variables.
+
 ---
