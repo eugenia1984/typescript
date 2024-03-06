@@ -155,4 +155,14 @@ class ClassName {
 }
 ```
 
+### Class inheritance
+
+- It's the ability of a program to create new classes from existing classes. A class that is extended to create a new class is called a parent/ super class.
+
+- Newly created classes are called child/sub classes.
+
+- A class inherits from another class using teh keyword **extends**.
+
+- A child class inherits all properties and methods from its parent class, except private members and constructors.
+
 ---
