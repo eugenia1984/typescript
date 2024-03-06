@@ -133,3 +133,21 @@ child_interface extends parent_interface {
 - It will use '?'
 
 ---
+
+## CLASSES
+
+- **class** is the keyword.
+
+- It contains...
+
+... **attributes**: variable that represent a data related to an object
+
+... **constructor**: allocating memory for objects of the class.
+
+... **capabilities**(**methods**): actions that an object can perform.
+
+```
+class ClassName {
+
+}
+```
