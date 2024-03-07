@@ -299,3 +299,60 @@ Static members can be defined with the **static** keyword.
 | To be accessed outside of the namespace, it must export functions and classes. | A module's exports are all accessible from outside the module. |
 | Dependencies can't declared in namespaces.  | Declaring dependencies is possible for modules. |
 | Module loaders are not required. Use the `<script>` element in the HTML page to include a namespace's js file | Include the module loader API that was chosen at compilation time, such as CommonJS, require.js, etc. |
+
+---
+---
+
+## JSX
+
+- TS is JS for application-scale development, according to its definition.
+
+- The embeddable JSX syntax resembles XML.
+
+- It's intended to be converted into legitimate JS, albeit the semantic of that conversion vary depending on the implementation.
+
+- With the React, JSX gained prominence, however, it has subsequently been used in other context as well.
+
+### Overview
+
+- Formatting of JSX: give the files `tsx` extension, activate the JSX setting
+
+- Three JSX options are included with TS: Preserve, React, React-native
+
+---
+
+## Practice of 6-1: Setting up JSX Components
+
+### Overview
+
+Setting up JSX with typescript in react 
+
+### Tasks:
+
+The famous frameworks and libraries, like React, AngularJS 1, Backbone, jQuery, etc. are not written in TypeScript so we don’t gain any benefits like auto-completion and type-checking when using them.
+
+On top of this React has this weird extension of JavaScript called JSX, which allows us to embed markup inside our JavaScript…
+
+Steps to Install and run JSX in Typescript react
+
+1. The Solution:
+
+a.  Open Visual Studio Code workspace.
+
+b.  Create a new folder or you can open a new folder from the vs code file menu and then run the below codes in the terminal.
+
+c.   Provide the code given below to Install Typescript and react via npm as shown in the screenshot (TYPESCRIPT JSX is the folder name here).
+
+`npm install typescript react`
+
+d.   Once you execute the above command, all the necessary packages will be created as shown in the screenshot.
+
+e. If you want have the TypeScript’s compiler as global executable (tsc) use: `npm install -g typescript`
+
+## 2. Steps for Developing a Component structure in the TSX file
+
+a.  After entering into the app directory, type the below code to create the react structure, where all the components are created that can be used to build a project.
+
+`npx create-react-app my-app --template typescript`
+
+b. This is it this how the folder structure should be created once you execute the above command.
