@@ -32,3 +32,24 @@ class Item {
 // It's defined just before an accessor declaration
 // It can be applied to the property descriptor for the accessor
 // Observing, modifying or replacing an accessor's definitions is used.
+class Employee {
+  private _salary: number;
+  private _name: string;
+
+  //@configurable (false)
+  get salary() {
+    return `Rs. ${this.salary}`;
+  }
+
+  set salary(salary: any) {
+    this._salary = +salary;
+  }
+
+  //@configurable(true) 
+  get name() {
+    return `Sir/Madam, ${this._name}`;
+  }
+  set name(name: string) {
+    this._name = name;
+  }
+}
