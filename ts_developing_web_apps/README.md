@@ -268,7 +268,9 @@ Static members can be defined with the **static** keyword.
 
 - Modules in TS are defined as files with a top-level export or import.
 
-- EXPORT MODULES: using the `refix **export**
+- EXPORT MODULES: using the prefix **export**.
+
+- IMPORT MODULES: using **import**: `import { export_name } from "file_path_without_extension"`. Also can be import as **variable**: `impost * as EMp from "./Employee"`
 
 
 -> See the files: `file1.ts`, `file2.ts`
