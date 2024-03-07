@@ -253,6 +253,6 @@ Static members can be defined with the **static** keyword.
 - The only difference between property and method decorators is that they do not accept property descriptors as an argument and do not return anything
 
 
--> See file `class_decorator.ts`
+-> See file `class_decorator.ts` and `stack.ts`
 
 ---
