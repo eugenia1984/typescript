@@ -296,3 +296,6 @@ Static members can be defined with the **static** keyword.
 | Use local scoping to logically organise functions. | Used to separate the code into individual files and avoid contaminating the global scope. |
 | It must be used with triple slash reference syntax in order to be used, eg: ` ///<reference path="path_to_namespace_file">` | It must imported first before being used elsewhere. |
 | Use the `outFile` command to compile. | Use the `--module` command to compile. |
+| To be accessed outside of the namespace, it must export functions and classes. | A module's exports are all accessible from outside the module. |
+| Dependencies can't declared in namespaces.  | Declaring dependencies is possible for modules. |
+| Module loaders are not required. Use the `<script>` element in the HTML page to include a namespace's js file | Include the module loader API that was chosen at compilation time, such as CommonJS, require.js, etc. |
