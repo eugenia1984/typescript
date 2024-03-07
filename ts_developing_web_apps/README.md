@@ -256,3 +256,19 @@ Static members can be defined with the **static** keyword.
 -> See file `class_decorator.ts`, `stack.ts` and `decorator.ts`
 
 ---
+---
+
+## MODULES AND NAMESPACES
+
+- A local scope can be established in teh file using modules.
+
+- None of the defined variables, classes, functions, etc., in a module are accessible from outside the module.
+
+- The keywords **export** and **import** can be used to construct modules and to utilized modules in other modules.
+
+- Modules in TS are defined as files with a top-level export or import.
+
+- EXPORT MODULES: using the `refix **export**
+
+
+-> See the files: `file1.ts`, `file2.ts`
