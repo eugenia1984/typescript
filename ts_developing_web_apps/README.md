@@ -1,6 +1,6 @@
-# <img width="38" height="38" src="https://img.icons8.com/color/38/typescript.png" alt="typescript"/> Developing Web application using TypeScript - Udemy - Proton Expert Systems & Solutions
+# <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> Developing Web application using TypeScript - Udemy - Proton Expert Systems & Solutions
 
-## What is TS?
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  What is TS?
 
 - TS is an object-oriented compiler language
 
@@ -9,8 +9,9 @@
 - In other words, TypeScript is JavaScript plus some additional features. It's both a language and a set of tools
 
 ---
+---
 
-## Features of TS
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Features of TS
 
 - TS is just JavaScript; it starts with JavaScript and ends with JavaScript
 
@@ -27,8 +28,9 @@
 - It can run on any JS environment and does not need a reliable VM or a specific runtime environment to execute.
 
 ---
+---
 
-## TS and ECMAScript
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  TS and ECMAScript
 
 ```
 ECMASC + ECMASC + Additional = TS
@@ -36,8 +38,9 @@ RITP5     ROTP6   Features
 ```
 
 ---
+---
 
-## Why use TS?
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Why use TS?
 
 TS is superior to its other replicas, like CoffeScript and Dart programming languages, because TS is advanced JS.
 
@@ -52,16 +55,18 @@ The benefits are:
 - It supports OOPs concepts like: classes, interfaces, inheritance, etc.
 
 ---
+---
 
-## Pre requisites:
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Pre requisites:
 
 - Must have [Node.js](https://nodejs.org/en) and npm installed. To verify Nodejs on the system: `node -v`
 
 - Must have TypeScript, if not, you can install with: `npm install -g typescript`
 
 ---
+---
 
-## TYPESCRIPT TYPES
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  TYPESCRIPT TYPES
 
 - Different types of values are supported by the TS language.
 
@@ -86,8 +91,9 @@ The benefits are:
 - **type assertion using <>**
 
 ---
+---
 
-## INTERFACE
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  INTERFACE
 
 - Contain only method and field declarations, not implementations
 
@@ -134,7 +140,7 @@ child_interface extends parent_interface {
 
 ---
 
-## CLASSES
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  CLASSES
 
 - **class** is the keyword.
 
@@ -201,7 +207,7 @@ Static members can be defined with the **static** keyword.
 
 ---
 
-## GENERIC AND DECORATORS
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  GENERIC AND DECORATORS
 
 - Static typed languages must include generics because they enable programmers to send types as arguments to another type, function or other structure.
 
@@ -218,7 +224,7 @@ Static members can be defined with the **static** keyword.
 
 ---
 
-## DECORATORS
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  DECORATORS
 
 
 - Class, method, accessor, property and parameter declarations can all be given a specific treatment applying a decorator
@@ -258,7 +264,7 @@ Static members can be defined with the **static** keyword.
 ---
 ---
 
-## MODULES AND NAMESPACES
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  MODULES AND NAMESPACES
 
 - A local scope can be established in teh file using modules.
 
@@ -282,7 +288,7 @@ Static members can be defined with the **static** keyword.
 
 -> See the files: `file1.ts`, `file2.ts` nad the folder `lesson_5`
 
-### NAMESPACES
+###  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  NAMESPACES
 
 - For the logical grouping of functionalities, the namespace is utilized. Interfaces, classes, functions, and variables can all be found in a namespace to provide a single or a collection of connected functionality.
 
@@ -303,7 +309,7 @@ Static members can be defined with the **static** keyword.
 ---
 ---
 
-## JSX
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  JSX
 
 - TS is JS for application-scale development, according to its definition.
 
@@ -321,7 +327,7 @@ Static members can be defined with the **static** keyword.
 
 ---
 
-## Practice of 6-1: Setting up JSX Components
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Practice of 6-1: Setting up JSX Components
 
 ### Overview
 
@@ -359,3 +365,6 @@ b. This is it this how the folder structure should be created once you execute t
 
 ![image](https://github.com/eugenia1984/typescript/assets/72580574/33998834-48a4-43e9-9c8e-27aeab0e0fa1)
 
+c. Here you can see the components and the file structure that is created by the npx command for the react typescript project with react. In the source folder you can make any changes as you requirement for the project.
+
+---
