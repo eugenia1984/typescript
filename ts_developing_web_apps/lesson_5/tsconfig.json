@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+  },
+  "files": [
+    "app.ts",
+    "decorators.ts"
+  ]
+}

@@ -280,7 +280,7 @@ Static members can be defined with the **static** keyword.
 
 - To compile a TS module and produce JS code, use the following command: `--module <target> <file path>`
 
--> See the files: `file1.ts`, `file2.ts`
+-> See the files: `file1.ts`, `file2.ts` nad the folder `lesson_5`
 
 ### NAMESPACES
 
