@@ -367,4 +367,23 @@ b. This is it this how the folder structure should be created once you execute t
 
 c. Here you can see the components and the file structure that is created by the npx command for the react typescript project with react. In the source folder you can make any changes as you requirement for the project.
 
+
+![image](https://github.com/eugenia1984/typescript/assets/72580574/35867a7f-71ff-42ba-8a35-1a6c8129498a)
+
+d. Provide `cd my-app` in the terminal to redirect to the created app.
+
+e. Type `npm start` to run the application
+
+##  3. Results
+
+a.  Now you can see the success message in terminal
+
+![image](https://github.com/eugenia1984/typescript/assets/72580574/659b9a0c-101c-4173-bf91-61b4ae908865)
+
+b. Output (my-app) will be displayed in the browser as shown below.
+
+![image](https://github.com/eugenia1984/typescript/assets/72580574/eb84fd34-83af-41ad-84bf-bac2be605b39)
+
+c. You can keep the IDE open with the same file structure or you can also create a new folder structure, for the project.
+
 ---
