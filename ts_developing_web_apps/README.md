@@ -244,6 +244,15 @@ Static members can be defined with the **static** keyword.
 
 - Observing, modifying or replacing an accessor's definitions is used.
 
+#### Property Decorator 
+
+- It's defined just before a property declaration
+
+- It's similar to the method of decorators
+
+- The only difference between property and method decorators is that they do not accept property descriptors as an argument and do not return anything
+
+
 -> See file `class_decorator.ts`
 
 ---

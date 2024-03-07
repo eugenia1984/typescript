@@ -53,3 +53,20 @@ class Employee {
     this._name = name;
   }
 }
+
+/* Property Decorator */
+//- It's defined just before a property declaration
+//- It's similar to the method of decorators
+//- The only difference between property and method decorators is that 
+// they do not accept property descriptors as an argument and do not return anything
+class Person {
+  msg: string;
+  constructor(message: string) {
+    this.msg = message;
+  }
+
+  // @validate
+  // show(@required name: string) {
+  //   return "Hello " + name + ", " + this.msg;
+  // }
+}
