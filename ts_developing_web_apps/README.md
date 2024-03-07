@@ -356,3 +356,6 @@ a.  After entering into the app directory, type the below code to create the rea
 `npx create-react-app my-app --template typescript`
 
 b. This is it this how the folder structure should be created once you execute the above command.
+
+![image](https://github.com/eugenia1984/typescript/assets/72580574/33998834-48a4-43e9-9c8e-27aeab0e0fa1)
+
