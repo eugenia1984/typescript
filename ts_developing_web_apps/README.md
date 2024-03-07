@@ -202,3 +202,14 @@ Static members can be defined with the **static** keyword.
 ---
 
 ## GENERIC AND DECORATORS
+
+- Static typed languages must include generics because they enable programmers to send types as arguments to another type, function or other structure.
+
+
+- The type variable (abbreviated **T**) is a specific type of variable used by generics to represent types.
+
+- Generic types are...
+
+... class
+
+... interface
