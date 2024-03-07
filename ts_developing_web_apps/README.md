@@ -213,3 +213,16 @@ Static members can be defined with the **static** keyword.
 ... class
 
 ... interface
+
+-> See files: `generic_class.ts` and `generic_interface.ts`
+
+---
+
+## DECORATORS
+
+
+- Class, method, accessor, property and parameter declarations can all be given a specific treatment applying a decorator
+
+- Decorators are just functions with the **@expression** symbol prefix that will be invoked at runtime with details about the decorated declaration
+
+- Expression must evaluate to a function
