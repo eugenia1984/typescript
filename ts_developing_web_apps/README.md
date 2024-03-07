@@ -287,3 +287,12 @@ Static members can be defined with the **static** keyword.
 - For the logical grouping of functionalities, the namespace is utilized. Interfaces, classes, functions, and variables can all be found in a namespace to provide a single or a collection of connected functionality.
 
 - By utilizing the namespace keyword and the namespace name, a namespace may be constructed. The curly brackets may be used to defined any interface, classes, etc.
+
+### Namespace vs Modules
+
+| Namespace | Modules |
+| --------- | ------- |
+| To expose namespace components, you must use both the namespace and export keywords. | Use the export keyword to reveal module features. |
+| Use local scoping to logically organise functions. | Used to separate the code into individual files and avoid contaminating the global scope. |
+| It must be used with triple slash reference syntax in order to be used, eg: ` ///<reference path="path_to_namespace_file">` | It must imported first before being used elsewhere. |
+| Use the `outFile` command to compile. | Use the `--module` command to compile. |
