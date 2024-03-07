@@ -272,5 +272,18 @@ Static members can be defined with the **static** keyword.
 
 - IMPORT MODULES: using **import**: `import { export_name } from "file_path_without_extension"`. Also can be import as **variable**: `impost * as EMp from "./Employee"`
 
+### Compiling a TS modules
+
+- We must se the TS compiler to build the modules in order to obtain the JS files for the TS modules.
+
+- A module's compilation is dependent on the environment you are aiming for. The module target option used during compilation is used by the TS compiler to build the JS code.
+
+- To compile a TS module and produce JS code, use the following command: `--module <target> <file path>`
 
 -> See the files: `file1.ts`, `file2.ts`
+
+### NAMESPACES
+
+- For the logical grouping of functionalities, the namespace is utilized. Interfaces, classes, functions, and variables can all be found in a namespace to provide a single or a collection of connected functionality.
+
+- By utilizing the namespace keyword and the namespace name, a namespace may be constructed. The curly brackets may be used to defined any interface, classes, etc.
