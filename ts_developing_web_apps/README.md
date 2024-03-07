@@ -226,3 +226,24 @@ Static members can be defined with the **static** keyword.
 - Decorators are just functions with the **@expression** symbol prefix that will be invoked at runtime with details about the decorated declaration
 
 - Expression must evaluate to a function
+
+### Class Decorator
+
+- A class decorator is applied to the constructor of the class. It's defined before the class declaration.
+
+- It can observe, modify, or replace a class definition.
+
+- If the class decorator return a value, it will replace the class declaration with the given constructor function.
+
+
+####  Accessor Decorator 
+
+- It's defined just before an accessor declaration
+
+- It can be applied to the property descriptor for the accessor
+
+- Observing, modifying or replacing an accessor's definitions is used.
+
+-> See file `class_decorator.ts`
+
+---
