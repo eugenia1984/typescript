@@ -4,7 +4,7 @@
 
 1. Primitives
 
-->> See `challenges/primitives.ts` file
+->> See [`challenges/primitives.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/primitives.ts) file
 
 ---
 
@@ -12,7 +12,7 @@
 
 - Assertions
 
-->> See `challenges/01-hello-world.ts` file
+->> See [`challenges/01-hello-world.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/01-hello-world.ts) file
 
 ---
 
@@ -39,7 +39,7 @@ Unions are a very deep topic, actually. The three things you need to know right 
 
 - **the never type is an empty union**: we'll learn more about never later on
 
-->> See `challenges/02-type-unions.ts`
+->> See [`challenges/02-type-unions.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/02-type-unions.ts) file.
 
 ---
 
@@ -100,7 +100,7 @@ greet('Mr. Monkey'); // Hello Mr. Monkey!
 
 In TypeScript, even if you provide ``never`` or ``unknown`` or ``any``, the value will be inserted instead of the default.
 
-->> See `challenges/03-default-generic-arguments.ts` file
+->> See [`challenges/03-default-generic-arguments.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/03-default-generic-arguments.ts) file
 
 ---
 
@@ -137,7 +137,7 @@ can I just import Row and specify ```Row[]``` when needed?
 
 If the answer is yes, then you should probably not make an alias for Rows. This is beneficial because you're probably going to want to work with the Row type anyway in the same file. It's also a bit easier to read and understand.
 
-->> See `challenges/04-types-aliases.ts` file
+->> See [`challenges/04-types-aliases.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/04-type-aliases.ts) file
 
 ---
 
@@ -219,7 +219,7 @@ type CreatePoint = typeof createPoint;
 //|TypeScript stuff
 ```
 
-->> See `challenges/05-type-of-operator.ts` file
+->> See [`challenges/05-type-of-operator.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/05-type-of-operator.ts) file
 
 ---
 
@@ -252,5 +252,7 @@ any
 ```
 
 And while we're in the weeds for a moment, you should be aware that capitalized variants of these things do actually exist: Number, String, Boolean, Symbol, Object. But these refer to something quite different (i.e. JavaScript global objects) and should virtually never be used as types.
+
+->> See [`challenges/primitive`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/primitives.ts) files
 
 ---
