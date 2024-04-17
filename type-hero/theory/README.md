@@ -223,6 +223,78 @@ type CreatePoint = typeof createPoint;
 
 ---
 
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 06 - Literal Types
+
+JavaScript, like most programming languages has a concept of primitive data types. Primitive data types are things like ``string``, ``number`` and ``boolean``.
+
+But TypeScript isn't like most programming languages. It's better. It takes things to the next level by introducing literal data types.
+
+You can think of literal data types as being an infinite set of subsets of their primitive counterparts. For example
+
+#### A Practical Use-Case
+
+Literal types can be used to create a rainbow of possibilities. In this case, we've defined a type RainbowColor that can only have one of the types specified in a union of literal strings.
+
+```TypeScript
+type RainbowColor = 'red' | 'orange' | 'yellow' | 'green' | 'blue' | 'indigo' | 'violet';
+```
+
+Then, we can use this type in a function to ensure bad values are not passed in:
+
+```TypeScript
+function pickColor(color: RainbowColor): void {
+  console.log(`I choose the color ${color}!`);
+}
+
+// no error: TypeScript is happy!
+pickColor('yellow');
+
+// Error: Argument of type 'purple' is not assignable to parameter of type 'RainbowColor'.
+pickColor('purple');
+// ^?
+```
+
+By the way. Did you know that purple's not in the rainbow because there's no "purple" wavelength of light. It's true. Our brains fabricate it for us to make sense of paradoxical visual inputs.
+
+### Literal Types For Returns
+
+But wait! There's A LOT more! Literal types are useful for returns, too. Check out this code:
+
+```TypeScript
+type Day = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday' | 'Sunday';
+
+const isItPartyTime = (day: Day) => {
+  switch (day) {
+    case 'Friday':
+    case 'Saturday':
+    case 'Sunday':
+      return 'definitely party time';
+
+    default:
+      return 'prolly lay low for now';
+  }
+};
+
+isItPartyTime('Monday');
+// ^?
+```
+
+The above example assumes a 4 day workweek since 4 day workweeks are observed to increase employee productivity.
+
+The return type for this function is also a literal type union. Notice that you didn't have to specify the return type anywhere. It just works this way in TypeScript. Nice.
+
+### Why Are Type Literals Even Necessary?
+
+If you're thinking to yourself:
+
+Why are type literals even necessary?  Lots of languages don't have anything like this and they seem to get along just fine with primitive types like string and number and boolean.
+
+The TLDR; is: once you pair type unions with literals, you can start discriminating inputs based on one particular literal instance of a type versus another, TypeScript suddenly becomes capable of doing some pretty amazing static analysis on your code that you could never do if all you had were primitive types. If that's unpalatable to you, there's always COBOL. Try that out instead maybe?
+
+->> See [`challenges/06-literal-types.ts`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/06-literal-types.ts) file
+
+---
+
 ## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> Primitives
 
 ### What Do Primitive Types Look Like?
