@@ -1,6 +1,6 @@
-# Theory
+# <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>  Theory
 
-## What you will find?
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> What you will find?
 
 1. Primitives
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 01 - Hello world
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 01 - Hello world
 
 - Assertions
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 02- Type Unions
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 02- Type Unions
 
 Unions are defined using a single "pipe" character: | separating two types or type aliases.
 
@@ -43,7 +43,7 @@ Unions are a very deep topic, actually. The three things you need to know right 
 
 ---
 
-## 03- Default Generic Arguments
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 03- Default Generic Arguments
 
 ### Why Generic Arguments Need Defaults
 
@@ -104,7 +104,7 @@ In TypeScript, even if you provide ``never`` or ``unknown`` or ``any``, the valu
 
 ---
 
-## 04 - Type Aliases
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 04 - Type Aliases
 
 ### How To Create Type Aliases?
 
@@ -141,7 +141,7 @@ If the answer is yes, then you should probably not make an alias for Rows. This 
 
 ---
 
-## 05 - The `typeof` Operator
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 05 - The `typeof` Operator
 
 | - | JavaScript world	| types world |
 | - | ----------------- | ----------- |
@@ -223,7 +223,7 @@ type CreatePoint = typeof createPoint;
 
 ---
 
-## Primitives
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> Primitives
 
 ### What Do Primitive Types Look Like?
 
