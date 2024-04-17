@@ -402,4 +402,38 @@ Let's really break this down piece by piece:
 
 * By the way: a massively misunderstood fact about JavaScript has to do with object keys. JavaScript object keys can only be strings or symbols. THAT'S IT. period. No other data types are possible to store as object keys.
 
+So wrapping it all up, our type for this API might look like this:
+
+```TypeScript
+type Info = {
+  count: number;
+  currentPage: number;
+  pages: number;
+};
+
+type FollowerCountByUserResults = {
+  [userId: string]: number;
+};
+
+type FollowerCountByUser = {
+  info: Info;
+  results: FollowerCountByUserResults;
+};
+```
+
+Or, we could always inline everything (this works just fine with index signatures):
+
+```TypeScript
+type FollowerCountByUser = {
+  info: {
+    count: number;
+    currentPage: number;
+    pages: number;
+  };
+  results: {
+    [userId: string]: number;
+  };
+};
+```
+
 ->> See [`challenges/07-index-signatures`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/07-index-signatures.ts) files
