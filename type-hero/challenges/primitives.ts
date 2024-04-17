@@ -21,3 +21,30 @@ musicianInfo({
   age,
   deceased: true,
 });
+
+
+/** Other way to make it **/
+/**
+interface Musician {
+  artistName: string;
+  age: number;
+  deceased: boolean;
+}
+
+const playSong = (artistName: Musician["artistName"], year: number) => {
+  return `${artistName} was released in the year ${year}`;
+};
+
+const artistName: Musician["artistName"] = 'Frank Zappa';
+const age: Musician["age"] = 52;
+
+const musicianInfo = ({ artistName, age, deceased }: Musician) => {
+  return `${artistName}, age ${age}${deceased ? ' (deceased)' : ''}`;
+};
+
+musicianInfo({
+  artistName,
+  age,
+  deceased: true,
+});
+**/
