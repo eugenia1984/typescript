@@ -1,6 +1,6 @@
 # TypeScript Challenges of TypeHero
 
-Here you'll find, inside the **challenge** folder, some of the challenge that I complete with [TypeHero](https://typehero.dev/).
+Here you'll find, inside the [**challenge**](https://github.com/eugenia1984/typescript/tree/main/type-hero/challenges) folder, some of the challenge that I complete with [TypeHero](https://typehero.dev/).
 
 ---
 
