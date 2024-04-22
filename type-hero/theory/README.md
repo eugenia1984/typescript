@@ -607,4 +607,6 @@ type Example = {
 };
 ```
 
+->> See [10-mapped-object](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/10-mapped-object.ts) file
+
 ---
