@@ -443,7 +443,7 @@ type FollowerCountByUser = {
 
 ## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 08 - Indexes Types
 
-->> See [08-indexes-types](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/08-indexes-types.ts)
+->> See [08-indexes-types](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/08-indexes-types.ts) file
 
 ---
 
@@ -514,5 +514,7 @@ type Artists = keyof CasettesByArtist;
 The result of keyof is always a union.
 
 Even if there are 0 or 1 objects, it doesn't hurt to think of the result as a union. If there are no elements in the result, the type will be never (which is the empty set in "Set theory" terminology). When there's only one key then the resulting type will be a single primitive or literal type.
+
+->> See [09-keyof-operator](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/09-keyof-operator.ts) file
 
 ---
