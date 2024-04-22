@@ -787,4 +787,6 @@ type AvocadoToast = {
 
 Note: you might notice that we're missing types for our type arguments! Right now there's nothing stopping us from sending in wrong values like GroceryItem<number[], boolean, { over: 9000 }>. We'll cover that in a future challenge on generic type constraints.
 
+->> See [12-generic-type-argument](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/12-generic-type-arguments.ts) file
+
 ---
