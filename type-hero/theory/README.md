@@ -696,4 +696,6 @@ type StringArrayRow = Row<string[]>;
 //
 ```
 
+->> See [11-generic-type-contraint](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/11-generic-type-contraints.ts) files
+
 ---   
