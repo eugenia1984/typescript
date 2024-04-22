@@ -1,6 +1,6 @@
-const identity = <T,>(val: T) => val;
+const identity = <T>(value: T) => value;
 
-const mapArray = <T,>(arr: T[], fn: (val: T) => T) => arr.map(fn);
+const mapArray = <T, K>(arr: T[], fn: (item: T, index?: number) => K) => arr.map(fn);
 
 const expect = <T>(a: T) => ({
   toEqual: (b: T) => a === b
