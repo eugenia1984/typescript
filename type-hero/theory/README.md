@@ -856,4 +856,6 @@ Because of this ambiguity, we need to do something to disambiguate these two sit
 
 With that being said, if you see this strange syntax, please note that it is not you, it's just TypeScript being a bit funky. If this is confusing to you, just skip it and come back here and read it again when the day comes that you first see this syntax out in the wild.
 
+->> See [13-generic-function-arguments](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/13-generic-function-arguments.ts) file
+
 ---
