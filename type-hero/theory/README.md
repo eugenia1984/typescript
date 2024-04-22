@@ -437,3 +437,12 @@ type FollowerCountByUser = {
 ```
 
 ->> See [`challenges/07-index-signatures`](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/07-index-signatures.ts) files
+
+
+---
+
+## <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 08 - Indexes Types
+
+->> See [08-indexes-types](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/08-indexes-types.ts)
+
+---
