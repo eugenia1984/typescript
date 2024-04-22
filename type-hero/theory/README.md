@@ -699,3 +699,92 @@ type StringArrayRow = Row<string[]>;
 ->> See [11-generic-type-contraint](https://github.com/eugenia1984/typescript/blob/main/type-hero/challenges/11-generic-type-contraints.ts) files
 
 ---   
+
+##  <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> 12 - Generic Type Arguments
+
+### Why We Need Generic Type Arguments
+
+If primitive (and literal) types are data, you can think of generics as functions that operate on that data.
+
+And just like functions often need arguments, we need some way to provide inputs to generic types.
+
+### How To Use Generic Arguments
+
+Instead of using parenthesis to pass arguments, with generics we use angled brackets: ```< and >```.
+
+Other than that, there are a lot of similarities between the two concepts.
+
+You can even provide defaults for generic arguments! See the relevant challenge for generic defaults.
+
+There are two separate situations when you'd use this syntax. One is when you're working strictly with types, and another is when you're doing more normal JavaScript-y stuff like with functions and constants.
+
+### Universe 1: strictly in the type system
+
+Just take a look:
+
+```TypeScript
+interface Row<T> {
+  label: string;
+  value: T;
+  disabled: boolean;
+}
+```
+
+Note: It's common (and acceptable) in situations like this where we really don't know anything else about the Generic type parameter to use a single letter like T. But the moment you have multiple arguments (or more context for what this type will be) it's a good idea to use more descriptive names.
+
+What this syntax means is that we have a Row type, and we know it will have a value property, but the specific type of that value property is not known until it's used.
+
+We could store numbers in this Row type. If we did, it'd look like this:
+
+```TypeScript
+type NumberRow = Row<number>;
+```
+
+Or we could store strings:
+
+```TypeScript
+type StringRow = Row<string>;
+```
+Because TypeScript is a structural type system, Row<string> is exactly equivalent (in every way) to if we had written this:
+
+```TypeScript
+type StringRow = {
+  label: string;
+  value: string;
+  disabled: boolean;
+};
+```
+
+But because we used a generic, we didn't have to type all that other stuff out every time.
+
+### Multiple Generic Arguments
+
+Just like functions can take multiple arguments, so too can Generics.
+
+```TypeScript
+type GroceryItem<Name, Price, InStock> = {
+  name: Name;
+  price: Price;
+  inStock: InStock;
+};
+```
+
+Now you can pass arguments to this type:
+
+```TypeSCript
+type AvocadoToast = GroceryItem<'Avocado Toast', 12.99, true>;
+```
+
+This is exactly equal to if you had written:
+
+```TypeScript
+type AvocadoToast = {
+  name: 'Avocado Toast';
+  price: 12.99;
+  inStock: true;
+};
+```
+
+Note: you might notice that we're missing types for our type arguments! Right now there's nothing stopping us from sending in wrong values like GroceryItem<number[], boolean, { over: 9000 }>. We'll cover that in a future challenge on generic type constraints.
+
+---
