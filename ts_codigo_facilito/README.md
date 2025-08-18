@@ -29,3 +29,35 @@
 - npm install -g typescript`
 
 ---
+
+### ¿Como ejecutarlo?
+
+1 - Dentro de `ts_codigo_facilito` creo un nuevo archivo `index.ts`
+
+```
+ts_codigo_facilito
+  index.ts
+```
+
+2 - Me situo en la consola dentro de `ts_codigo_facilito` y corro el comando: `tsc index.ts`
+
+3 - Se crea un nuevo archivo `index.js`, tranpila mi archivo de TypeScript a JavaScript (pero no usa ES6 o posterior, usa `var` por ejemplo, asi es compatible con todos los navegadores).
+
+4 - Para poder ver por consola el archivo uso node: `node index.js`
+
+5 - `npm init -y` para iniciar un nuevo proyecto con node y tener el archivo package.json
+
+6 - Agrego un nuevo script: 
+```  
+"scripts": {
+    "start": "tsc index.ts && node index.js",
+},
+```
+
+Y por comando corro: 
+```bash
+npm run start
+```
+
+---
+

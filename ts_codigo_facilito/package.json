@@ -1,0 +1,13 @@
+{
+  "name": "ts_codigo_facilito",
+  "version": "1.0.0",
+  "description": "Curso de TypeScript de Codigo Facilito",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "javascript"],
+  "author": "Maria Eugenia Costa",
+  "license": "ISC"
+}
