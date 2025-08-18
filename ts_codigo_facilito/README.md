@@ -59,5 +59,26 @@ Y por comando corro:
 npm run start
 ```
 
+7- creo la carpeta `basics` para ver lo basico de TypeScript con el archivo: `types.ts`
+
+```
+ts_codigo_facilito
+  basics/types.ts
+  dist/types.js
+```
+
+Y agrego el script:
+```bash 
+"scripts": {
+  "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+},
+```
+
+
+Ahora por consola corro: 
+```bash
+npm run start:types
+```
+
 ---
 
