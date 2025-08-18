@@ -1,8 +1,6 @@
 # <img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/> TypeScript
 
----
-
-## <img width="38" height="38" src="https://img.icons8.com/doodle/38/question-mark--v1.png" alt="question mark"/> Qué hay ?
+## <img width="28" height="28" src="https://img.icons8.com/doodle/28/question-mark--v1.png" alt="question mark"/> Qué hay ?
 
 Los cursos que estoy realizando para aprender **TypeScript**:
 
@@ -26,6 +24,8 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 - [type-hero](https://github.com/eugenia1984/typescript/tree/main/type-hero), algunos challenges con TypeScript y un poco de teoría
 
 - [typescript_scrimba](https://github.com/eugenia1984/typescript/tree/main/typescript_scrimba) el curso de Bob Ziroll para aprender TypeScript en Scrimba.
+
+- [ts_codigo_facilito](https://github.com/eugenia1984/typescript/tree/main/ts_codigo_facilito) el curso de TypeScript de Código facilito
 
 ---
 
