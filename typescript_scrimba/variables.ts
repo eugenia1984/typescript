@@ -58,3 +58,17 @@ ages.push(50)
 let people: Person[] = [ person1, person2 ]
 // With Generics
 let people2: Array<Person> = [ person1, person2 ]
+
+// Literal type
+const myName2 = "María Eugenia"
+// A constant can`t be re assigned 
+
+// Unions
+type UserRole = "guest" | "member" | "admin"
+let userRoleGuest: UserRole = "guest"
+let UserRoleAdmin = "admin"
+
+type User = {
+  username: string
+  role: UserRole
+}

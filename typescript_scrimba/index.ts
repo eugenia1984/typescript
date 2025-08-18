@@ -3,10 +3,12 @@ type Pizza = {
   price: number
 }
 
+type OrderStatus = "ordered" | "completed"
+
 type Order = {
   id: number
   pizza: Pizza
-  status: string
+  status: OrderStatus
 }
 
 const menu: Pizza[] = [
@@ -47,7 +49,7 @@ const placeOrder = ( pizzaName: string ) => {
   }
 
   cashInRegister += selectedPizza.price
-  const newOrder = { id: nextOrderId++, pizza: selectedPizza, status: "ordered" }
+  const newOrder: Order = { id: nextOrderId++, pizza: selectedPizza, status: "ordered" }
   orderQueue.push(newOrder)
 
   return newOrder
@@ -65,7 +67,7 @@ const  completeOrder = ( orderId: number ) =>   {
     console.error(`${orderId} was not found in the orderQueue`)
     return
   }
-  
+
   order.status = "completed" 
 
   return order
