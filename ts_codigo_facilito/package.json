@@ -8,7 +8,8 @@
     "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "start:interface": "tsc basics/interface.ts --outdir dist/ && node dist/interface.js",
     "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
-    "start:interfaveVScustomTypes": "tsc basics/interfaveVScustomTypes.ts --outdir dist/ && node dist/interfaveVScustomTypes.js",
+    "start:interfaceVScustomTypes": "tsc basics/interfaceVScustomTypes.ts --outdir dist/ && node dist/interfaceVScustomTypes.js",
+    "start:classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
