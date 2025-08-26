@@ -11,6 +11,7 @@
     "start:interfaceVScustomTypes": "tsc basics/interfaceVScustomTypes.ts --outdir dist/ && node dist/interfaceVScustomTypes.js",
     "start:classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
     "start:interfacesVsClasses": "tsc basics/interfacesVsClasses.ts --outdir dist/ && node dist/interfacesVsClasses.js",
+     "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
