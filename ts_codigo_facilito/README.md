@@ -82,3 +82,12 @@ npm run start:types
 
 ---
 
+### Para crear proyectos con el archivo tsconfig
+
+```bash
+tsc --init
+```
+
+Y se crea el archivo:`tsconfig.json`
+
+---
