@@ -53,3 +53,10 @@ const otherToDos : ToDosPreview = {
   title: "Clean room",
   completed: false
 }
+
+// Omit <T, Properties>  -> omits properties of an interface
+type ToDosOmitted = Omit<ToDos, "description">;
+const todosOmitted: ToDosOmitted = {
+  title: "Sleep",
+  completed: false
+};
