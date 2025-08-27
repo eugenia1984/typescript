@@ -1,5 +1,6 @@
-/****** Generics (tipo de datos dinamicos) ******/
+/****** Generics  ******/
 
+// En vez de tener una interface con un union type uso Generic
 // interface MyInterface {
 //  field: string | number;
 // }
@@ -8,4 +9,38 @@ interface MyInterface<T> {
   field: T;
 }
 
-const myValue: MyInterface<number> = { field: 5 };
+interface Example {
+  id: string;
+  name: string;
+}
+
+// Tipo de datos dinamicos que se asignan en tiempo de ejecución
+const myValueNumber: MyInterface<number> = { field: 5 };
+const myValueString: MyInterface<string> = { field: '5' };
+const myValueExample: MyInterface<Example> = {
+  field: {
+    id: '1',
+    name: 'first'
+  }
+}
+
+// Class example
+class MyClass<T> {
+  field: T;
+
+  constructor(field: T) {
+    this.field = field;
+  }
+}
+
+const myObject: MyClass<string> = new MyClass('123');
+
+// Function example
+function getData<T>(id: string): Promise<T> | void {}
+getData('Hola');
+
+// Example with classes
+interface UserResponse {
+  id: number;
+  name: string;
+}
