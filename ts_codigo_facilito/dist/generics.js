@@ -1,12 +1,12 @@
 /****** Generics  ******/
 // Tipo de datos dinamicos que se asignan en tiempo de ejecución
 var myValueNumber = { field: 5 };
-var myValueString = { field: '5' };
+var myValueString = { field: "5" };
 var myValueExample = {
     field: {
-        id: '1',
-        name: 'first'
-    }
+        id: "1",
+        name: "first",
+    },
 };
 // Class example
 var MyClass = /** @class */ (function () {
@@ -15,10 +15,10 @@ var MyClass = /** @class */ (function () {
     }
     return MyClass;
 }());
-var myObject = new MyClass('123');
+var myObject = new MyClass("123");
 // Function example
 function getData(id) { }
-getData('Hola');
+getData("Hola");
 var HttpResponse = /** @class */ (function () {
     function HttpResponse(data, status, code) {
         this.data = data;
@@ -30,9 +30,31 @@ var HttpResponse = /** @class */ (function () {
 var fetchUser = function () {
     return {
         id: 1,
-        name: 'Maria'
+        name: "Maria",
     };
 };
 var myUser = fetchUser();
 var res = new HttpResponse(myUser, 200, 1);
 console.log(res);
+var CRUD = /** @class */ (function () {
+    function CRUD(items) {
+        this.items = items;
+    }
+    CRUD.prototype.addItem = function (item) {
+        this.items.push(item);
+    };
+    CRUD.prototype.removeLastItem = function (item) {
+        this.items.pop();
+    };
+    CRUD.prototype.printItems = function () {
+        return this.items;
+    };
+    return CRUD;
+}());
+var users = [
+    { id: 1, name: "Maria" },
+    { id: 2, name: "Ana" },
+];
+var userCRUD = new CRUD(users);
+userCRUD.addItem({ id: 3, name: 'Jose' });
+console.log(userCRUD.printItems());
