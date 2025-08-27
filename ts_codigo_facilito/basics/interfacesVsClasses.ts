@@ -38,7 +38,7 @@ class PetClass {
 }
 
 // Nos obliga a seguir el contrato
-class Dog implements PetInterface {
+class Dogs implements PetInterface {
   sayHello() {
     return "Hola desde dog!";
   }
