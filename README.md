@@ -12,7 +12,6 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 <img src="https://github.com/eugenia1984/typescript/assets/72580574/c546a43f-d77a-4e10-b93f-f2eadd872b14" alt="certificado" width="400" />
 
-
 - [ Master en TypeScript, JavaScript Moderno, ES2023, APIs HTML5 - Udemy - Victor Robles](https://github.com/eugenia1984/typescript/tree/main/typescript_udemy_victor_robles)
 
 - [TypeScript - Udemy - Daniel Stern](https://github.com/eugenia1984/typescript/tree/main/ts_daniel_stern)
@@ -26,6 +25,8 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 - [typescript_scrimba](https://github.com/eugenia1984/typescript/tree/main/typescript_scrimba) el curso de Bob Ziroll para aprender TypeScript en Scrimba.
 
 - [ts_codigo_facilito](https://github.com/eugenia1984/typescript/tree/main/ts_codigo_facilito) el curso de TypeScript de Código facilito
+
+<img width="608" height="435" alt="image" src="https://github.com/user-attachments/assets/6f369eb8-f3cf-4ce7-ad83-3aacf6f45a01" />
 
 ---
 
