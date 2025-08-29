@@ -19,3 +19,10 @@
 - Funciona con codigo JavaScript puro y bibliotecas sin problemas.
 
 ---
+
+### Que vemos
+
+- `Ejemplo1.ts` el primer "Hola mundo" en TypeScript, dentro del file `/ts_jap_software` : `tsc Ejemplo1.ts` y asi se compila y crea el nuevo archivo: `Ejemplo1.js`. Lo podemos ver por consola con **node**, con: `node Ejemplo1.js`
+
+
+---
