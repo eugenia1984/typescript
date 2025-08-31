@@ -34,4 +34,6 @@
 
 - `Ejemplo6.ts`y `Ejemplo6.js`: tuplas
 
+- `Ejemplo7.ts`y `Ejemplo7.js`: union types y literal
+
 ---
