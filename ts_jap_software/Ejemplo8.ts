@@ -63,17 +63,17 @@ for (let i: number = 0; i < 10; i++) {
 // For...of -> para recorrer un array
 let array = ["Hola", "me", "llamo", "Maria"];
 for (let element of array) {
-  console.log(`element: ${element}`)
+  console.log(`element: ${element}`);
 }
 
 // For ...in -> para recorrer un array con sus indices
 for (let element in array) {
-  console.log(`element ${element} - ${array[element]}`)
+  console.log(`element ${element} - ${array[element]}`);
 }
 
 // WHILE -> siempre primero evalua la condicion y luego ejecuta
 let num: number = 3;
-while(num < 57 && num % 2 === 0) {
+while (num < 57 && num % 2 === 0) {
   console.log(`El número es: ${num}`);
   num = num * 2;
 }
@@ -82,9 +82,51 @@ while(num < 57 && num % 2 === 0) {
 // && -> Y -> ambas deben ser true
 // || -> OR -> al menos una debe ser true
 
+// Operadores aritmeticos
+// + suma
+// - resta
+// * multipplicacion
+// % division
+// / resto
+
 // DO WHILE -> se ejecuta y uego evalua la condicion
 let i: number = 5;
 do {
   console.log(`i: ${i}`);
   i++;
-} while( i < 7)
+} while (i < 7);
+
+// Ejercicios
+
+// 1 - Devolver los primeros 100 números impares
+let numeroImpar: number = 1;
+
+while (numeroImpar <= 100) {
+  if(numeroImpar % 2 == 1 )  console.log(`número impar menor a 100 : ${numeroImpar}`);
+  numeroImpar++;
+}
+
+// otro modo, cn el for
+for(let j=0; j < 100; j++) {
+  if(j % 2 === 1) console.log(` numero impar con el for: ${j}`)
+}
+
+// 2 - Hacer un menú que nos devuelva una opción u otra
+let opcion = 3;
+switch (opcion) {
+  case 1:
+    console.log("caso 1");
+    break;
+
+  case 2:
+    console.log("caso 2");
+    break;
+    
+  case 3:
+     console.log("caso 3"); 
+    break;  
+
+  default:
+    console.log("Otro caso");
+    break;
+}

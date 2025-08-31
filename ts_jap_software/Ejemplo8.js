@@ -69,9 +69,44 @@ while (num < 57 && num % 2 === 0) {
 // Operadores para condiciones
 // && -> Y -> ambas deben ser true
 // || -> OR -> al menos una debe ser true
+// Operadores aritmeticos
+// + suma
+// - resta
+// * multipplicacion
+// % division
+// / resto
 // DO WHILE -> se ejecuta y uego evalua la condicion
 var i = 5;
 do {
     console.log("i: ".concat(i));
     i++;
 } while (i < 7);
+// Ejercicios
+// 1 - Devolver los primeros 100 números impares
+var numeroImpar = 1;
+while (numeroImpar <= 100) {
+    if (numeroImpar % 2 == 1)
+        console.log("n\u00FAmero impar menor a 100 : ".concat(numeroImpar));
+    numeroImpar++;
+}
+// otro modo, cn el for
+for (var j = 0; j < 100; j++) {
+    if (j % 2 === 1)
+        console.log(" numero impar con el for: ".concat(j));
+}
+// 2 - Hacer un menú que nos devuelva una opción u otra
+var opcion = 3;
+switch (opcion) {
+    case 1:
+        console.log("caso 1");
+        break;
+    case 2:
+        console.log("caso 2");
+        break;
+    case 3:
+        console.log("caso 3");
+        break;
+    default:
+        console.log("Otro caso");
+        break;
+}
