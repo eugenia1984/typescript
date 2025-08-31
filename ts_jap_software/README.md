@@ -30,4 +30,6 @@
 
 - `Ejemplo4.ts`y `Ejemplo4.js`: objetos
 
+- `Ejemplo5.ts`y `Ejemplo5.js`: arrays
+
 ---
