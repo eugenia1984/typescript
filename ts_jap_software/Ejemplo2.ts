@@ -1,4 +1,4 @@
-// TS basic types
+// TS basic types: number, string,boolean, null, undefiend
 let numero: number = 5;
 let cadena: string = "Hola";
 let soyBooleano:boolean = true;
