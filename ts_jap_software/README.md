@@ -24,8 +24,10 @@
 
 - `Ejemplo1.ts` el primer "Hola mundo" en TypeScript, dentro del file `/ts_jap_software` : `tsc Ejemplo1.ts` y asi se compila y crea el nuevo archivo: `Ejemplo1.js`. Lo podemos ver por consola con **node**, con: `node Ejemplo1.js`
 
-- `Ejemplo2.ts`: tipos básicos: number, string, boolean.
+- `Ejemplo2.ts` y `Ejemplo2.js`: tipos básicos: number, string, boolean.
 
-- `Ejemplo3.ts`: variables.
+- `Ejemplo3.ts` y `Ejemplo3.js`: variables.
+
+- `Ejemplo4.ts`y `Ejemplo4.js`: objetos
 
 ---
