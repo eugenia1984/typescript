@@ -36,4 +36,6 @@
 
 - `Ejemplo7.ts`y `Ejemplo7.js`: union types y literal
 
+- `Ejemplo8.ts`y `Ejemplo8.js`: loops (IF-ELSE, IF-ELSE IF-ELSE, operador ternario, SWITCH, FOR, WHILE, DO WHILE)
+
 ---
