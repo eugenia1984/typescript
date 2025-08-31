@@ -70,3 +70,21 @@ for (let element of array) {
 for (let element in array) {
   console.log(`element ${element} - ${array[element]}`)
 }
+
+// WHILE -> siempre primero evalua la condicion y luego ejecuta
+let num: number = 3;
+while(num < 57 && num % 2 === 0) {
+  console.log(`El número es: ${num}`);
+  num = num * 2;
+}
+
+// Operadores para condiciones
+// && -> Y -> ambas deben ser true
+// || -> OR -> al menos una debe ser true
+
+// DO WHILE -> se ejecuta y uego evalua la condicion
+let i: number = 5;
+do {
+  console.log(`i: ${i}`);
+  i++;
+} while( i < 7)
