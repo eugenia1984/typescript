@@ -40,4 +40,6 @@
 
 - `Funciones.ts` y `Funciones.js`: funciones, arrow functions(funciones anonimas), funciones que retornan error, tipo never , callbacks
 
+- `Clase.ts` y `Clase.js`: clases
+
 ---
