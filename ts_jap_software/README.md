@@ -42,4 +42,6 @@
 
 - `Clase.ts` y `Clase.js`: clases
 
+- `Interface.ts` y `Interface.js`: interfaces
+
 ---
