@@ -39,8 +39,40 @@ const fibonacciArrowFn = (vecesSucesion: number): number[] => {
 
 console.log(`fibonacciArrowFn - ${fibonacciArrowFn(3)}`);
 
+// Funciones como tipos
+function multiplicar(x: number, y: number): number {
+  return x * y;
+}
+
+let funcionMultiplicar = multiplicar;
+let funcionMultiplicar2: (x: number, y: number) => number;
+funcionMultiplicar2 = multiplicar;
+console.log(funcionMultiplicar(3, 4));
+console.log(funcionMultiplicar2(2, 4));
+
+// Callback
+// Pasar como un parametro otra funcion
+
+type Operacion = (valor1: number, valor2: number) => number;
+
+function operacion(x: number, y: number, func: Operacion) {
+  return func(x, y);
+}
+
+console.log(
+  operacion(10, 4, (x: number, y: number): number => {
+    return x * y;
+  })
+);
+
+console.log(
+  operacion(10, 4, (x: number, y: number): number => {
+    return x + y;
+  })
+);
 // let tipoNever = (cadena: string): never => {while (true)};
 
+// never
 let lanzarError = (texto: string) => {
   throw new Error(texto);
 };

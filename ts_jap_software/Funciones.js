@@ -30,7 +30,26 @@ var fibonacciArrowFn = function (vecesSucesion) {
     return numeros;
 };
 console.log("fibonacciArrowFn - ".concat(fibonacciArrowFn(3)));
+// Funciones como tipos
+function multiplicar(x, y) {
+    return x * y;
+}
+var funcionMultiplicar = multiplicar;
+var funcionMultiplicar2;
+funcionMultiplicar2 = multiplicar;
+console.log(funcionMultiplicar(3, 4));
+console.log(funcionMultiplicar2(2, 4));
+function operacion(x, y, func) {
+    return func(x, y);
+}
+console.log(operacion(10, 4, function (x, y) {
+    return x * y;
+}));
+console.log(operacion(10, 4, function (x, y) {
+    return x + y;
+}));
 // let tipoNever = (cadena: string): never => {while (true)};
+// never
 var lanzarError = function (texto) {
     throw new Error(texto);
 };
