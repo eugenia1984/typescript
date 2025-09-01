@@ -38,4 +38,6 @@
 
 - `Ejemplo8.ts`y `Ejemplo8.js`: loops (IF-ELSE, IF-ELSE IF-ELSE, operador ternario, SWITCH, FOR, WHILE, DO WHILE)
 
+- `Funciones.ts` y `Funciones.js`: funciones, arrow functions(funciones anonimas), funciones que retornan error, tipo never , callbacks
+
 ---
