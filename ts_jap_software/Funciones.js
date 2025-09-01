@@ -30,3 +30,8 @@ var fibonacciArrowFn = function (vecesSucesion) {
     return numeros;
 };
 console.log("fibonacciArrowFn - ".concat(fibonacciArrowFn(3)));
+// let tipoNever = (cadena: string): never => {while (true)};
+var lanzarError = function (texto) {
+    throw new Error(texto);
+};
+console.log(lanzarError(" probando "));

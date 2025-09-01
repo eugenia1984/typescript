@@ -38,3 +38,11 @@ const fibonacciArrowFn = (vecesSucesion: number): number[] => {
 };
 
 console.log(`fibonacciArrowFn - ${fibonacciArrowFn(3)}`);
+
+// let tipoNever = (cadena: string): never => {while (true)};
+
+let lanzarError = (texto: string) => {
+  throw new Error(texto);
+};
+
+console.log(lanzarError(" probando "));
