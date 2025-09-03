@@ -1,37 +1,67 @@
 // Interface
-interface Animal2 {
+// para suplir o simular la herencia multiple ya que una clase puede implementar varias interfaces a la vez
+
+// Es un CONTRATO, donde se especifica las cosas que deben tener una clase
+enum especieGato {
+  Comun,
+  Angora,
+  Persa,
+  Siames,
+}
+
+enum especiePerro {
+  PP,
+  Doberman,
+  Salchicha,
+}
+
+interface AnimalInterface {
   nombre: string;
   edad: number;
   datos(): void;
 }
 
-// Clase que extiende de la interface
-class Perro2 implements Animal2 {
+class Gato2 implements AnimalInterface {
+  // Properties
   nombre: string;
   edad: number;
+  esp: especieGato;
+
+  // constructor
+  constructor(n: string, e: number, esp: especieGato) {
+    this.nombre = n;
+    this.edad = e;
+    this.esp = esp;
+  }
+
+  // Method
   datos(): void {
-    console.log(`Mi perro se llama ${this.nombre}, tiene ${this.edad} años.`);
+    console.log(
+      `Mi gato se llama ${this.nombre}, tiene ${
+        this.edad
+      } años y es de la especie ${especieGato[this.esp]}.`
+    );
   }
 }
 
-let miPerro2 = new Perro2();
-miPerro2.edad = 2;
-miPerro2.nombre = "Perrín";
-miPerro2.datos();
-
-// tipo
-type Animal3 = {
+class Perro implements AnimalInterface {
   nombre: string;
   edad: number;
-  datos(): void;
-}
+  esp: especiePerro;
 
-let jirafa: Animal3 = {
-  nombre: "Jirafín",
-  edad: 5,
   datos(): void {
-    console.log(`Mi jirafa se llama ${this.nombre}, tiene ${this.edad} años.`);
+    console.log(
+      `Mi perro se llama ${this.nombre}, tiene ${
+        this.edad
+      } años y es de la especie ${especiePerro[this.esp]}.`
+    );
   }
 }
+const miGato2 = new Gato2("Pepi", 5, especieGato.Comun);
+miGato2.datos();
 
-jirafa.datos();
+const miPerro = new Perro();
+miPerro.edad = 6;
+miPerro.nombre = "Toto";
+miPerro.esp = especiePerro.PP;
+miPerro.datos();
