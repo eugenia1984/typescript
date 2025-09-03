@@ -42,6 +42,8 @@
 
 - `Clase.ts` y `Clase.js`: clases
 
-- `Interface.ts` y `Interface.js`: interfaces
+- `Interface.ts` y `Interface.js`: interfaces. Y más ejemplos en:  `Interface2.ts` y `Interface2.js`
+
+- `this.ts`: this
 
 ---
