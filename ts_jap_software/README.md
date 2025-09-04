@@ -54,4 +54,6 @@
 
 - `ClasesAbstractas.ts`: clases abstractas
 
+- `Static.ts`
+
 ---
