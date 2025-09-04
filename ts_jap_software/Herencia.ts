@@ -39,3 +39,34 @@ class Hijo extends Padre{
 let hijo = new Hijo("Pedrito", 5);
 hijo.dameNombre();
 hijo.dameEdad();
+
+
+
+class Padre2 {
+  protected nombre: string;
+
+  constructor (n:string) {
+    this.nombre = n;
+  }
+
+  protected dameNombre() {
+    console.log(`Mi nombre es: ${this.nombre}`)
+  }
+}
+
+class Hijo2 extends Padre2 {
+  edad: number;
+
+  constructor(n: string, e: number){
+    super(n);
+    this.edad = e;
+  }
+
+  dameNombre() {
+    super.dameNombre();
+  }
+
+  dameEdad():void {
+    console.log(`Mi edad es: ${this.edad}`)
+  }
+}
