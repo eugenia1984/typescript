@@ -46,6 +46,6 @@
 
 - `this.ts`: this y sus diferentes ambitos
 
-- `PublicPrivate.ts` y  `PublicPrivate.js`: las propiedades/atributos publicos o privados de una clase
+- `PublicPrivate.ts` y  `PublicPrivate.js`: las propiedades/atributos publicos o privados y readonly de una clase
 
 ---
