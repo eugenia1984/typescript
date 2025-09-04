@@ -1,4 +1,4 @@
-// Tanto la propiedad como el metodo pueden ser estaticos
+// Tanto la propiedad (algun valor que sea constante, por ejemplo) como el metodo pueden ser estaticos
 class Ejemplo {
   public num: number;
   static estatico: number;
