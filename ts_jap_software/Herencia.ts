@@ -23,6 +23,11 @@ class Hijo extends Padre{
     this.edad = e;
   }
 
+  // Sobrrescribo le metodo de la clase padre
+  dameNombre() {
+    console.log(`Mi nombre es: ${this.nombre}, desde la clase hija!!!`)
+  }
+
   dameEdad():void {
     console.log(`Mi edad es: ${this.edad}`)
   }
