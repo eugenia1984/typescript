@@ -1,5 +1,8 @@
+// Protected, solo es accesible desde las clases hijas
+// pueden ser protected los atributos como los metodos
+
 class Padre {
-  nombre: string;
+  protected nombre: string;
 
   constructor (n:string) {
     this.nombre = n;
