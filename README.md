@@ -18,6 +18,9 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 - [TypeScript from scratch - Udemy - JAP Software](https://github.com/eugenia1984/typescript/tree/main/ts_jap_software)
 
+<img width="519" height="388" alt="image" src="https://github.com/user-attachments/assets/9f7556b3-64ee-4f3d-bdd4-e68adfe6b24a" />
+
+
 - [Developing Web application using TypeScript - Udemy - Proton Expert Systems & Solutions](https://github.com/eugenia1984/typescript/tree/main/ts_developing_web_apps)
 
 - [type-hero](https://github.com/eugenia1984/typescript/tree/main/type-hero), algunos challenges con TypeScript y un poco de teoría
