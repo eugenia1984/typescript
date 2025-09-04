@@ -31,8 +31,6 @@ Los cursos que estoy realizando para aprender **TypeScript**:
 
 <img width="608" height="435" alt="image" src="https://github.com/user-attachments/assets/6f369eb8-f3cf-4ce7-ad83-3aacf6f45a01" />
 
-- [ts_very_nformative](https://github.com/eugenia1984/typescript/tree/main/ts_codigo_facilito) el curso de Clyde Mathew de TypeScript
-
 ---
 
 ## <img width="46" height="46" src="https://img.icons8.com/office/46/monitor.png" alt="monitor"/> Tecnologías:
