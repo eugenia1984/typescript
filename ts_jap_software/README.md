@@ -48,4 +48,6 @@
 
 - `PublicPrivate.ts` y  `PublicPrivate.js`: las propiedades/atributos publicos o privados y readonly de una clase
 
+- `Herencia.ts` y `Herencia.js`: herencia de clases. Protected
+
 ---
