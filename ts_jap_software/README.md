@@ -50,4 +50,8 @@
 
 - `Herencia.ts` y `Herencia.js`: herencia de clases. Protected. Getter y Setter.
 
+- `HerenciaEjercicios.ts`: ejercicios para practicar herencia
+
+- `ClasesAbstractas.ts`: clases abstractas
+
 ---
