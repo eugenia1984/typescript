@@ -58,4 +58,6 @@
 
 - `Exepciones.ts`, `Exepciones2.ts`: modos de manejar errores de TypeScript con `try-catch-finally`.
 
+- `TypeCasting.ts`: conversiones de tipos
+
 ---
