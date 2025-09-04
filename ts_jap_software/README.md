@@ -56,6 +56,6 @@
 
 - `Static.ts`
 
-- `Exepciones.ts`: modos de manejar errores de TypeScript con `try-catch-finally`.
+- `Exepciones.ts`, `Exepciones2.ts`: modos de manejar errores de TypeScript con `try-catch-finally`.
 
 ---
