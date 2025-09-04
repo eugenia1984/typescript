@@ -49,13 +49,27 @@ abstract class VehiculoPesado implements Vehiculo {
   abstract dameNumeroRuedas(): void;
 
   dameVelocidad(): void {
-    console.log(`La velocidad del Vehiculo Pesado es: ${this.velocidad}`);
+    try {
+      console.log(`La velocidad del Vehiculo Pesado es: ${this.velocidad}`);
+    } catch (Error) {
+      console.log(`Error: ${Error}`);
+    }
   }
+
   damePeso(): void {
-    console.log(`El peso del Vehiculo Pesado es: ${this.peso}`);
+    try {
+      console.log(`El peso del Vehiculo Pesado es: ${this.peso}`);
+    } catch (Error) {
+      console.log(`Error: ${Error}`);
+    }
   }
+
   dameColor(): void {
-    console.log(`El color del Vehiculo Pesado es: ${this.color}`);
+    try {
+      console.log(`El color del Vehiculo Pesado es: ${this.color}`);
+    } catch(Error) {
+      console.log(`Error: ${Error}`);
+    }
   }
 }
 
@@ -64,7 +78,6 @@ class Camion implements VehiculoPesado {
   peso: number;
   color: string;
   numeroRuedas: number;
-
 
   constructor(vel: number, p: number, c: string, nr: number) {
     this.velocidad = vel;

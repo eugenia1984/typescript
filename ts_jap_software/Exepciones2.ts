@@ -12,13 +12,14 @@ try {
 try {
   let x: number= 2;
   let y: number = 4;
-  x***y;
+  // Asi originaria el error
+  // x***y;
 } catch (Error) {
   console.log('Error: ${Error}')
 } finally {
 }
 
-// DEpurando
+// Depurando
 class Prueba {
   iteraciones: number;
 
