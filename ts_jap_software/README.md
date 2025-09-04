@@ -44,6 +44,8 @@
 
 - `Interface.ts` y `Interface.js`: interfaces. Y más ejemplos en:  `Interface2.ts` y `Interface2.js`
 
-- `this.ts`: this
+- `this.ts`: this y sus diferentes ambitos
+
+- `PublicPrivate.ts` y  `PublicPrivate.js`: las propiedades/atributos publicos o privados y readonly de una clase
 
 ---
