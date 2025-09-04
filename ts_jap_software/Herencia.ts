@@ -40,7 +40,7 @@ let hijo = new Hijo("Pedrito", 5);
 hijo.dameNombre();
 hijo.dameEdad();
 
-
+// Ejemplo de PROTECTED
 
 class Padre2 {
   protected nombre: string;
@@ -70,3 +70,25 @@ class Hijo2 extends Padre2 {
     console.log(`Mi edad es: ${this.edad}`)
   }
 }
+
+// Ejemplo de GETTER y SETTER
+class Padre3 {
+  private _nombre: string;
+
+  constructor (n:string) {
+    this._nombre = n;
+  }
+
+  get nombre(): string {
+    return this._nombre;
+  }
+
+  set nombre(value: string) {
+    this._nombre = value;
+  }
+  
+}
+
+let padre3 = new Padre3("Pedro");
+console.log(padre3.nombre);
+// padre3.nombre("Tato");
